@@ -9,11 +9,6 @@
 
 APlayerCar::APlayerCar()
 {
-	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
-	Camera->bUsePawnControlRotation = false;
-	Camera->FieldOfView = 90.f;
-
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->TargetOffset = FVector(0.f, 0.f, 200.f);
 	SpringArm->SetRelativeRotation(FRotator(-15.f, 0.f, 0.f));
@@ -23,6 +18,11 @@ APlayerCar::APlayerCar()
 	SpringArm->CameraRotationLagSpeed = 7.f;
 	SpringArm->bInheritPitch = false;
 	SpringArm->bInheritRoll = false;
+
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+	Camera->bUsePawnControlRotation = false;
+	Camera->FieldOfView = 90.f;
 
 	UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
 
