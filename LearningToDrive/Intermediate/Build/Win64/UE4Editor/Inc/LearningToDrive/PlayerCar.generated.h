@@ -35,7 +35,7 @@ public: \
 
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APlayerCar(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API APlayerCar(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerCar) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APlayerCar); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCar); \
@@ -47,8 +47,6 @@ public:
 
 
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APlayerCar(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlayerCar(APlayerCar&&); \
@@ -56,10 +54,14 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APlayerCar); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCar); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerCar)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerCar)
 
 
-#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_PRIVATE_PROPERTY_OFFSET
+#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(APlayerCar, Camera); } \
+	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(APlayerCar, SpringArm); }
+
+
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_9_PROLOG
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

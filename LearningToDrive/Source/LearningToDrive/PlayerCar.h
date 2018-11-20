@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Thomas Arthur Simon
 
 #pragma once
 
@@ -11,7 +11,18 @@ class LEARNINGTODRIVE_API APlayerCar : public AWheeledVehicle
 {
 	GENERATED_BODY()
 	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* Camera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* SpringArm;
 	
+protected:
+
+
+
+public:
 	
+	APlayerCar();
 	
 };
