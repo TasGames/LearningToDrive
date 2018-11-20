@@ -19,7 +19,11 @@ class LEARNINGTODRIVE_API APlayerCar : public AWheeledVehicle
 	
 protected:
 
+	UPROPERTY(EditDefaultsOnly, Category = Wheels)
+	TSubclassOf<class UVehicleWheel> FrontWheel;
 
+	UPROPERTY(EditDefaultsOnly, Category = Wheels)
+	TSubclassOf<class UVehicleWheel> RearWheel;
 
 public:
 	

@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	LEARNINGTODRIVE_API UClass* Z_Construct_UClass_APlayerCar();
 	PHYSXVEHICLES_API UClass* Z_Construct_UClass_AWheeledVehicle();
 	UPackage* Z_Construct_UPackage__Script_LearningToDrive();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	PHYSXVEHICLES_API UClass* Z_Construct_UClass_UVehicleWheel_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
@@ -33,6 +35,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RearWheel_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_RearWheel;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FrontWheel_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_FrontWheel;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
 #endif
@@ -57,6 +67,20 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_RearWheel_MetaData[] = {
+		{ "Category", "Wheels" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_RearWheel = { UE4CodeGen_Private::EPropertyClass::Class, "RearWheel", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0024080000010001, 1, nullptr, STRUCT_OFFSET(APlayerCar, RearWheel), Z_Construct_UClass_UVehicleWheel_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_RearWheel_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_RearWheel_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_FrontWheel_MetaData[] = {
+		{ "Category", "Wheels" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_FrontWheel = { UE4CodeGen_Private::EPropertyClass::Class, "FrontWheel", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0024080000010001, 1, nullptr, STRUCT_OFFSET(APlayerCar, FrontWheel), Z_Construct_UClass_UVehicleWheel_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_FrontWheel_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_FrontWheel_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -75,6 +99,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera = { UE4CodeGen_Private::EPropertyClass::Object, "Camera", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(APlayerCar, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCar_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_RearWheel,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_FrontWheel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera,
 	};
@@ -101,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCar, 2155519679);
+	IMPLEMENT_CLASS(APlayerCar, 3989420511);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerCar(Z_Construct_UClass_APlayerCar, &APlayerCar::StaticClass, TEXT("/Script/LearningToDrive"), TEXT("APlayerCar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerCar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
