@@ -25,8 +25,16 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = Wheels)
 	TSubclassOf<class UVehicleWheel> RearWheel;
 
+
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
 public:
 	
 	APlayerCar();
-	
+
+	void MoveForward(float Val);
+	void MoveRight(float Val);
+	void OnHandbrakePressed();
+	void OnHandbrakeReleased();
+
 };
