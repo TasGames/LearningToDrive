@@ -1,4 +1,4 @@
-﻿Log file open, 11/20/18 20:26:03
+﻿Log file open, 11/22/18 23:01:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: LearningToDrive
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.190442
+LogStats: Stats thread started at 0.190317
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.140s to configure plugins.
+LogStreaming: Display: Took  0.157s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -148,500 +148,197 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.20-20.26.03:612][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.20-20.26.03:612][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.20-20.26.03:621][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.20-20.26.03:621][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.20-20.26.03:621][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.20-20.26.03:621][  0]LogInit: Computer: DESKTOP-C6U4EA4
-[2018.11.20-20.26.03:621][  0]LogInit: User: ThomasSimon
-[2018.11.20-20.26.03:621][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.20-20.26.03:621][  0]LogInit: High frequency timer resolution =3.234375 MHz
-[2018.11.20-20.26.03:621][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.11.20-20.26.03:621][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.20-20.26.03:621][  0]LogMemory: Process Physical Memory: 100.19 MB used, 100.19 MB peak
-[2018.11.20-20.26.03:621][  0]LogMemory: Process Virtual Memory: 84.33 MB used, 84.33 MB peak
-[2018.11.20-20.26.03:621][  0]LogMemory: Physical Memory: 5167.66 MB used,  11156.06 MB free, 16323.73 MB total
-[2018.11.20-20.26.03:621][  0]LogMemory: Virtual Memory: 4625.40 MB used,  11156.06 MB free, 134217728.00 MB total
-[2018.11.20-20.26.03:642][  0]LogInit: Using OS detected language (en-GB).
-[2018.11.20-20.26.03:642][  0]LogInit: Using OS detected locale (en-GB).
-[2018.11.20-20.26.03:642][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.11.20-20.26.04:006][  0]LogStreaming: Display: Took  0.365s to InitEngineTextLocalization.
-[2018.11.20-20.26.04:007][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.20-20.26.04:040][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.20-20.26.04:040][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.20-20.26.04:204][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.20-20.26.04:204][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.20-20.26.04:245][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.11.20-20.26.04:245][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.11.20-20.26.04:247][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.20-20.26.04:247][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.20-20.26.04:247][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.20-20.26.04:252][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.20-20.26.04:252][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.20-20.26.04:252][  0]LogWindows: EnumDisplayDevices:
-[2018.11.20-20.26.04:253][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.11.20-20.26.04:253][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.11.20-20.26.04:253][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.11.20-20.26.04:253][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.11.20-20.26.04:253][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.20-20.26.04:253][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.11.20-20.26.04:253][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
-[2018.11.20-20.26.04:253][  0]LogD3D11RHI:      Driver Date: 6-1-2018
-[2018.11.20-20.26.04:254][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.11.20-20.26.04:286][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.20-20.26.04:303][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.20-20.26.04:355][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Intermediate/Shaders/WorkingDirectory/15516/).
-[2018.11.20-20.26.04:355][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/51F607074CB0F6970FE42D949EF85D65/'.
-[2018.11.20-20.26.04:632][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.20-20.26.04:644][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.20-20.26.04:656][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.20-20.26.04:669][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.20-20.26.04:681][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.20-20.26.04:694][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.20-20.26.04:705][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.20-20.26.04:717][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.20-20.26.04:723][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.20-20.26.04:801][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-20.26.04:803][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.20-20.26.04:862][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.20-20.26.04:862][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.20-20.26.04:883][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.20-20.26.04:883][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.20-20.26.04:895][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.20-20.26.04:906][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.20-20.26.04:918][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.20-20.26.04:930][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.20-20.26.04:938][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.20-20.26.04:938][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.20-20.26.04:996][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.20-20.26.04:996][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.20-20.26.04:996][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.20-20.26.05:698][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.20-20.26.05:756][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.20-20.26.05:757][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.20-20.26.05:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.20-20.26.05:757][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.20-20.26.05:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.20-20.26.05:757][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.20-20.26.05:770][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.20-20.26.05:783][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.20-20.26.05:783][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.20-20.26.05:783][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.20-20.26.05:800][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.20-20.26.05:801][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.20-20.26.05:802][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.20-20.26.05:875][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2018.11.20-20.26.06:214][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.20-20.26.06:350][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.20-20.26.06:354][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.20-20.26.06:354][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.20-20.26.06:354][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.20-20.26.06:354][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.20-20.26.06:381][  0]LogNetVersion: LearningToDrive 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1667456807)
-[2018.11.20-20.26.06:926][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.133395 seconds
-[2018.11.20-20.26.06:933][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.20-20.26.06:933][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.11.20-20.26.06:933][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.20-20.26.07:787][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.20-20.26.07:809][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.20-20.26.07:952][  0]SourceControl: Source control is disabled
-[2018.11.20-20.26.07:952][  0]SourceControl: Source control is disabled
-[2018.11.20-20.26.07:954][  0]SourceControl: Source control is disabled
-[2018.11.20-20.26.07:955][  0]SourceControl: Source control is disabled
-[2018.11.20-20.26.08:120][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.20-20.26.08:167][  0]LogOcInput: OculusInput pre-init called
-[2018.11.20-20.26.08:219][  0]LogEngine: Initializing Engine...
-[2018.11.20-20.26.08:220][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.20-20.26.08:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.20-20.26.08:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.20-20.26.08:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.20-20.26.08:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.20-20.26.08:415][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.20-20.26.08:426][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.20-20.26.08:442][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.20-20.26.08:461][  0]LogInit: FAudioDevice initialized.
-[2018.11.20-20.26.08:462][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.20-20.26.09:163][  0]LogDerivedDataCache: Saved boot cache 0.70s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.20-20.26.09:191][  0]LogInit: Texture streaming: Enabled
-[2018.11.20-20.26.09:219][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.20-20.26.09:234][  0]LogInit: Transaction tracking system initialized
-[2018.11.20-20.26.09:257][  0]BlueprintLog: New page: Editor Load
-[2018.11.20-20.26.09:370][  0]LocalizationService: Localization service is disabled
-[2018.11.20-20.26.09:630][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/' took 0.01s
-[2018.11.20-20.26.09:630][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.20-20.26.09:630][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.20-20.26.09:630][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.20-20.26.09:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.20-20.26.09:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.20-20.26.09:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.20-20.26.09:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.20-20.26.09:757][  0]SourceControl: Source control is disabled
-[2018.11.20-20.26.09:762][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
-[2018.11.20-20.26.09:775][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.11.20-20.26.09:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.11.20-20.26.09:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.11.20-20.26.09:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.11.20-20.26.09:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.11.20-20.26.09:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.11.20-20.26.09:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.11.20-20.26.09:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.11.20-20.26.09:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.11.20-20.26.09:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.11.20-20.26.09:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.11.20-20.26.09:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.11.20-20.26.09:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.11.20-20.26.09:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.11.20-20.26.09:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.11.20-20.26.09:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.11.20-20.26.09:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.11.20-20.26.09:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.11.20-20.26.09:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Fire01.uasset"
-[2018.11.20-20.26.09:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.11.20-20.26.09:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.11.20-20.26.09:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.11.20-20.26.09:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Light01.uasset"
-[2018.11.20-20.26.09:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.11.20-20.26.09:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Light02.uasset"
-[2018.11.20-20.26.09:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.11.20-20.26.09:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.11.20-20.26.09:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.11.20-20.26.09:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.11.20-20.26.09:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.11.20-20.26.09:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.11.20-20.26.09:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.11.20-20.26.09:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.11.20-20.26.09:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.11.20-20.26.09:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Steam01.uasset"
-[2018.11.20-20.26.09:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.11.20-20.26.09:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.11.20-20.26.09:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.11.20-20.26.09:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.11.20-20.26.09:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.11.20-20.26.09:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.11.20-20.26.09:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.11.20-20.26.09:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.11.20-20.26.09:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.11.20-20.26.09:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.11.20-20.26.09:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.11.20-20.26.10:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.11.20-20.26.10:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.11.20-20.26.10:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.11.20-20.26.10:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.11.20-20.26.10:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.11.20-20.26.10:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.11.20-20.26.10:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.11.20-20.26.10:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.11.20-20.26.10:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.11.20-20.26.10:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.11.20-20.26.10:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.11.20-20.26.10:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Maps/StarterMap.umap"
-[2018.11.20-20.26.10:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.11.20-20.26.10:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.11.20-20.26.10:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.11.20-20.26.10:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.11.20-20.26.10:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.11.20-20.26.10:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.11.20-20.26.10:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.11.20-20.26.10:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.11.20-20.26.10:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.11.20-20.26.10:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.11.20-20.26.10:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.11.20-20.26.10:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.11.20-20.26.10:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.11.20-20.26.10:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.11.20-20.26.10:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.11.20-20.26.10:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.11.20-20.26.10:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.11.20-20.26.10:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.11.20-20.26.10:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.11.20-20.26.10:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.11.20-20.26.10:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.11.20-20.26.10:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.11.20-20.26.10:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.11.20-20.26.10:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.11.20-20.26.10:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.11.20-20.26.10:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.11.20-20.26.10:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.11.20-20.26.10:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.11.20-20.26.10:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.11.20-20.26.10:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.11.20-20.26.10:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.11.20-20.26.10:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.11.20-20.26.10:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.11.20-20.26.10:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.11.20-20.26.10:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.11.20-20.26.10:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.11.20-20.26.10:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.11.20-20.26.10:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.11.20-20.26.10:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.11.20-20.26.10:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.11.20-20.26.10:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.11.20-20.26.10:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.11.20-20.26.10:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.11.20-20.26.10:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.11.20-20.26.10:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.11.20-20.26.10:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.11.20-20.26.10:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.11.20-20.26.10:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.11.20-20.26.10:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.11.20-20.26.10:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.11.20-20.26.10:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.11.20-20.26.10:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.11.20-20.26.10:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.11.20-20.26.10:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.11.20-20.26.10:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.11.20-20.26.10:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.11.20-20.26.10:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.11.20-20.26.10:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.11.20-20.26.10:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.11.20-20.26.10:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.11.20-20.26.10:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.11.20-20.26.10:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.11.20-20.26.10:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.11.20-20.26.10:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.11.20-20.26.10:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.11.20-20.26.10:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Door.uasset"
-[2018.11.20-20.26.10:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.11.20-20.26.10:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.11.20-20.26.10:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.11.20-20.26.10:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.11.20-20.26.10:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.11.20-20.26.10:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.11.20-20.26.10:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.11.20-20.26.10:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.11.20-20.26.10:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.11.20-20.26.10:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.11.20-20.26.10:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.11.20-20.26.10:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.11.20-20.26.10:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.11.20-20.26.10:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.11.20-20.26.10:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.11.20-20.26.10:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.11.20-20.26.10:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.11.20-20.26.10:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.11.20-20.26.10:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.11.20-20.26.10:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.11.20-20.26.10:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.11.20-20.26.10:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.11.20-20.26.10:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.11.20-20.26.10:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.11.20-20.26.10:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.11.20-20.26.10:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.11.20-20.26.10:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.11.20-20.26.10:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.11.20-20.26.10:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.11.20-20.26.10:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.11.20-20.26.10:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.11.20-20.26.10:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.11.20-20.26.10:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.11.20-20.26.10:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.11.20-20.26.10:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.11.20-20.26.10:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.11.20-20.26.10:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.11.20-20.26.10:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.11.20-20.26.10:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.11.20-20.26.10:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.11.20-20.26.10:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.11.20-20.26.10:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.11.20-20.26.10:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.11.20-20.26.10:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.11.20-20.26.10:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.11.20-20.26.10:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.11.20-20.26.10:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.11.20-20.26.11:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.11.20-20.26.11:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.11.20-20.26.11:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.11.20-20.26.11:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.11.20-20.26.11:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.11.20-20.26.11:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.11.20-20.26.11:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.11.20-20.26.11:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.11.20-20.26.11:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.11.20-20.26.11:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.11.20-20.26.11:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.11.20-20.26.11:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.11.20-20.26.11:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.11.20-20.26.11:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.11.20-20.26.11:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.11.20-20.26.11:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.11.20-20.26.11:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.11.20-20.26.11:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.11.20-20.26.11:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.11.20-20.26.11:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.11.20-20.26.11:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.11.20-20.26.11:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.11.20-20.26.11:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.11.20-20.26.11:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.11.20-20.26.11:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.11.20-20.26.11:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.11.20-20.26.11:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.11.20-20.26.11:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.11.20-20.26.11:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.11.20-20.26.11:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.11.20-20.26.11:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.11.20-20.26.11:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.11.20-20.26.11:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.11.20-20.26.11:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.11.20-20.26.11:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.11.20-20.26.11:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.11.20-20.26.11:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.11.20-20.26.11:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.11.20-20.26.12:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.11.20-20.26.12:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.11.20-20.26.12:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.11.20-20.26.12:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.11.20-20.26.12:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.11.20-20.26.12:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.11.20-20.26.12:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.11.20-20.26.12:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.11.20-20.26.12:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.11.20-20.26.12:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.11.20-20.26.12:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.11.20-20.26.12:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.11.20-20.26.12:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.11.20-20.26.12:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.11.20-20.26.12:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.11.20-20.26.12:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.11.20-20.26.12:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.11.20-20.26.12:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.11.20-20.26.12:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.11.20-20.26.12:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.11.20-20.26.12:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.11.20-20.26.12:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.11.20-20.26.12:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.11.20-20.26.12:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.11.20-20.26.12:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.11.20-20.26.12:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.11.20-20.26.12:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.11.20-20.26.12:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.11.20-20.26.12:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.11.20-20.26.12:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.11.20-20.26.12:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.11.20-20.26.12:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.11.20-20.26.13:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.11.20-20.26.13:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.11.20-20.26.13:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.11.20-20.26.13:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.11.20-20.26.13:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.11.20-20.26.13:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.11.20-20.26.13:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.11.20-20.26.13:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.11.20-20.26.13:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.11.20-20.26.13:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.11.20-20.26.13:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.11.20-20.26.13:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.11.20-20.26.13:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.11.20-20.26.13:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.11.20-20.26.13:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.11.20-20.26.13:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.11.20-20.26.13:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.11.20-20.26.13:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.11.20-20.26.13:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.11.20-20.26.13:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.11.20-20.26.13:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.11.20-20.26.13:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.11.20-20.26.13:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.11.20-20.26.13:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.11.20-20.26.13:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.11.20-20.26.13:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.11.20-20.26.13:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.11.20-20.26.13:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.11.20-20.26.13:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.11.20-20.26.13:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.11.20-20.26.13:523][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.11.20-20.26.13:627][  0]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Floor_400x4004B7A24634A8A1ABCA21B0A856ED9407F.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.11.20-20.26.13:634][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.11.20-20.26.13:636][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.20-20.26.13:636][  0]LightingResults: New page: Lighting Build
-[2018.11.20-20.26.13:639][  0]MapCheck: New page: Map Check
-[2018.11.20-20.26.13:639][  0]LightingResults: New page: Lighting Build
-[2018.11.20-20.26.13:956][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.11.20-20.26.13:967][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.20-20.26.13:990][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.20-20.26.14:055][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.819ms to complete.
-[2018.11.20-20.26.14:055][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.419
-[2018.11.20-20.26.14:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-20.26.14:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-20.26.14:239][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-20.26.14:245][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-20.26.14:254][  0]LogCollectionManager: Loaded 0 collections in 0.001277 seconds
-[2018.11.20-20.26.14:322][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Collections/' took 0.01s
-[2018.11.20-20.26.14:322][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Developers/ThomasSimon/Collections/' took 0.01s
-[2018.11.20-20.26.14:322][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Collections/' took 0.01s
-[2018.11.20-20.26.14:322][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.20-20.26.14:335][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2574 classes and 607 folders.
-[2018.11.20-20.26.14:367][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.20-20.26.14:648][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.20-20.26.15:833][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.11.20-20.26.15:856][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.20-20.26.15:874][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.20-20.26.15:883][  0]LogSlate: Took 0.004658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.20-20.26.15:938][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LearningToDrive
-[2018.11.20-20.26.15:938][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.20-20.26.15:938][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2018.11.20-20.26.15:938][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.20-20.26.15:938][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2018.11.20-20.26.15:938][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.11.20-20.26.15:938][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
-[2018.11.20-20.26.15:981][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.20-20.26.16:093][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.20-20.26.16:093][  0]LogLoad: (Engine Initialization) Total time: 13.82 seconds
-[2018.11.20-20.26.16:093][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.20-20.26.16:103][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.20-20.26.16:233][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.20-20.26.16:256][  1]LogAssetRegistry: Asset discovery search completed in 10.4030 seconds
-[2018.11.20-20.26.16:259][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.11.20-20.26.16:259][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
-[2018.11.20-20.26.21:551][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-20.26.23:569][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-20.26.25:932][138]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-20.26.27:533][138]LogSlate: Window 'New Level' being destroyed
-[2018.11.20-20.26.30:055][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-20.26.57:385][471]LogSlate: Window 'New Level' being destroyed
-[2018.11.20-20.26.57:389][471]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.20-20.26.57:401][471]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.20-20.26.57:410][471]LightingResults: New page: Lighting Build
-[2018.11.20-20.26.57:411][471]LoadErrors: New page: Loading map: Template_Default.umap
-[2018.11.20-20.26.57:412][471]MapCheck: New page: Map Check
-[2018.11.20-20.26.57:412][471]LightingResults: New page: Lighting Build
-[2018.11.20-20.26.57:455][471]LogAIModule: Creating AISystem for world Untitled_1
-[2018.11.20-20.26.57:520][471]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.20-20.26.57:545][471]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.20-20.26.57:608][471]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.381ms to complete.
-[2018.11.20-20.26.57:609][471]LogFileHelpers: Loading map 'Template_Default' took 0.221
-[2018.11.20-20.27.19:346][714]LogSlate: Window 'Save Level As' being destroyed
-[2018.11.20-20.27.19:480][714]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main916D91D7432F975FA0C6AA8FAC44F946.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap'
-[2018.11.20-20.27.19:496][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
-[2018.11.20-20.27.19:507][714]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main_BuiltData665471764C85EC02DCC701B832368BAA.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset'
-[2018.11.20-20.27.19:514][714]LogFileHelpers: Saving map 'Main' took 0.165
-[2018.11.20-20.27.19:515][714]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.20-20.27.19:532][714]LightingResults: New page: Lighting Build
-[2018.11.20-20.27.19:533][714]LoadErrors: New page: Loading map: Main.umap
-[2018.11.20-20.27.19:533][714]MapCheck: New page: Map Check
-[2018.11.20-20.27.19:533][714]LightingResults: New page: Lighting Build
-[2018.11.20-20.27.19:593][714]LogAIModule: Creating AISystem for world Main
-[2018.11.20-20.27.19:651][714]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.20-20.27.19:682][714]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.20-20.27.19:747][714]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.688ms to complete.
-[2018.11.20-20.27.19:748][714]LogFileHelpers: Loading map 'Main' took 0.233
-[2018.11.20-20.27.27:971][625]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main67D21D54466DF065064AAF8991AFCC38.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap'
-[2018.11.20-20.27.27:995][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
-[2018.11.20-20.27.28:012][625]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main_BuiltData171554644B36490A5FB6AB930149FFB1.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.11.22-23.01.26:401][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-23.01.26:401][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.22-23.01.26:413][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.22-23.01.26:413][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.22-23.01.26:413][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.22-23.01.26:413][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2018.11.22-23.01.26:413][  0]LogInit: User: ThomasSimon
+[2018.11.22-23.01.26:413][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.22-23.01.26:413][  0]LogInit: High frequency timer resolution =3.234375 MHz
+[2018.11.22-23.01.26:413][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.22-23.01.26:414][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.22-23.01.26:414][  0]LogMemory: Process Physical Memory: 100.16 MB used, 100.16 MB peak
+[2018.11.22-23.01.26:414][  0]LogMemory: Process Virtual Memory: 84.58 MB used, 84.58 MB peak
+[2018.11.22-23.01.26:414][  0]LogMemory: Physical Memory: 4861.48 MB used,  11462.25 MB free, 16323.73 MB total
+[2018.11.22-23.01.26:414][  0]LogMemory: Virtual Memory: 4625.40 MB used,  11462.25 MB free, 134217728.00 MB total
+[2018.11.22-23.01.26:431][  0]LogInit: Using OS detected language (en-GB).
+[2018.11.22-23.01.26:431][  0]LogInit: Using OS detected locale (en-GB).
+[2018.11.22-23.01.26:431][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.11.22-23.01.26:785][  0]LogStreaming: Display: Took  0.354s to InitEngineTextLocalization.
+[2018.11.22-23.01.26:785][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.22-23.01.26:824][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.22-23.01.26:824][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.22-23.01.26:998][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.22-23.01.26:998][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.22-23.01.27:066][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.11.22-23.01.27:066][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.11.22-23.01.27:069][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.22-23.01.27:069][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.22-23.01.27:069][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.22-23.01.27:074][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.22-23.01.27:074][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.22-23.01.27:074][  0]LogWindows: EnumDisplayDevices:
+[2018.11.22-23.01.27:074][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.11.22-23.01.27:075][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.11.22-23.01.27:075][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.11.22-23.01.27:075][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.22-23.01.27:075][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.22-23.01.27:075][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.11.22-23.01.27:075][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.11.22-23.01.27:075][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.11.22-23.01.27:075][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.11.22-23.01.27:105][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.22-23.01.27:122][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.22-23.01.27:174][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Intermediate/Shaders/WorkingDirectory/10076/).
+[2018.11.22-23.01.27:174][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/803FC1BE410E44F0A0D69CBFAB32C469/'.
+[2018.11.22-23.01.27:439][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.22-23.01.27:450][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.22-23.01.27:463][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.22-23.01.27:476][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.22-23.01.27:492][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.22-23.01.27:506][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.22-23.01.27:519][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.22-23.01.27:533][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.22-23.01.27:539][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-23.01.27:613][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.22-23.01.27:670][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-23.01.27:670][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-23.01.27:693][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-23.01.27:693][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-23.01.27:705][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.22-23.01.27:716][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.22-23.01.27:728][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.22-23.01.27:740][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.22-23.01.27:748][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.22-23.01.27:748][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.22-23.01.27:804][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.22-23.01.27:804][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.22-23.01.27:804][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.22-23.01.28:489][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.22-23.01.28:545][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-23.01.28:545][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.22-23.01.28:546][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.22-23.01.28:546][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.22-23.01.28:546][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.22-23.01.28:546][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.22-23.01.28:558][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.22-23.01.28:572][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.22-23.01.28:572][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.22-23.01.28:572][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.22-23.01.28:590][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.22-23.01.28:592][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.22-23.01.28:592][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.22-23.01.28:669][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.11.22-23.01.28:957][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-23.01.29:083][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.22-23.01.29:086][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.22-23.01.29:086][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.22-23.01.29:086][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.22-23.01.29:086][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.22-23.01.29:111][  0]LogNetVersion: LearningToDrive 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1667456807)
+[2018.11.22-23.01.29:648][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.152950 seconds
+[2018.11.22-23.01.29:655][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.22-23.01.29:655][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.22-23.01.29:655][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.22-23.01.30:444][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.22-23.01.30:457][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.22-23.01.30:674][  0]SourceControl: Source control is disabled
+[2018.11.22-23.01.30:674][  0]SourceControl: Source control is disabled
+[2018.11.22-23.01.30:675][  0]SourceControl: Source control is disabled
+[2018.11.22-23.01.30:676][  0]SourceControl: Source control is disabled
+[2018.11.22-23.01.30:849][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.22-23.01.30:898][  0]LogOcInput: OculusInput pre-init called
+[2018.11.22-23.01.30:951][  0]LogEngine: Initializing Engine...
+[2018.11.22-23.01.30:952][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.22-23.01.30:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-23.01.30:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-23.01.30:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-23.01.30:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-23.01.31:146][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.22-23.01.31:157][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.22-23.01.31:175][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-23.01.31:191][  0]LogInit: FAudioDevice initialized.
+[2018.11.22-23.01.31:191][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.22-23.01.31:281][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-23.01.31:290][  0]LogInit: Texture streaming: Enabled
+[2018.11.22-23.01.31:306][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.22-23.01.31:318][  0]LogInit: Transaction tracking system initialized
+[2018.11.22-23.01.31:351][  0]BlueprintLog: New page: Editor Load
+[2018.11.22-23.01.31:422][  0]LocalizationService: Localization service is disabled
+[2018.11.22-23.01.31:673][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.22-23.01.31:673][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.22-23.01.31:673][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.22-23.01.31:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-23.01.31:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-23.01.31:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-23.01.31:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-23.01.31:776][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/' took 0.01s
+[2018.11.22-23.01.31:776][  0]SourceControl: Source control is disabled
+[2018.11.22-23.01.31:776][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.22-23.01.31:776][  0]LightingResults: New page: Lighting Build
+[2018.11.22-23.01.31:779][  0]MapCheck: New page: Map Check
+[2018.11.22-23.01.31:779][  0]LightingResults: New page: Lighting Build
+[2018.11.22-23.01.32:041][  0]LogAIModule: Creating AISystem for world Main
+[2018.11.22-23.01.32:046][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.22-23.01.32:068][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.22-23.01.32:124][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.455ms to complete.
+[2018.11.22-23.01.32:124][  0]LogFileHelpers: Loading map 'Main' took 0.348
+[2018.11.22-23.01.32:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-23.01.32:376][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-23.01.32:382][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-23.01.32:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-23.01.32:398][  0]LogCollectionManager: Loaded 0 collections in 0.001299 seconds
+[2018.11.22-23.01.32:466][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Collections/' took 0.01s
+[2018.11.22-23.01.32:466][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2018.11.22-23.01.32:466][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Collections/' took 0.01s
+[2018.11.22-23.01.32:466][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.22-23.01.32:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2575 classes and 607 folders.
+[2018.11.22-23.01.32:499][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.22-23.01.33:467][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.22-23.01.35:247][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.22-23.01.35:315][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LearningToDrive
+[2018.11.22-23.01.35:315][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.22-23.01.35:315][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.11.22-23.01.35:315][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.22-23.01.35:315][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.11.22-23.01.35:315][  0]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.22-23.01.35:320][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.22-23.01.35:332][  0]LogSlate: Took 0.007752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.22-23.01.35:434][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.22-23.01.35:434][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
+[2018.11.22-23.01.35:571][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.22-23.01.35:572][  0]LogLoad: (Engine Initialization) Total time: 10.66 seconds
+[2018.11.22-23.01.35:572][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.22-23.01.35:582][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.22-23.01.35:608][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.22-23.01.35:632][  0]LogSlate: Took 0.003360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.22-23.01.35:671][  1]LogAssetRegistry: Asset discovery search completed in 7.0254 seconds
+[2018.11.22-23.01.35:673][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.22-23.01.35:673][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2018.11.22-23.01.36:620][108]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.22-23.01.43:882][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-23.01.44:061][995]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCar.Bp_PlayerCar
+[2018.11.22-23.01.44:716][995]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.11.22-23.01.49:279][411]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/MainB706DF6D48EBB566269C589A09F933C9.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap'
+[2018.11.22-23.01.49:300][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.11.22-23.01.49:314][411]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main_BuiltData7C8E6BA64AB19D387B6CE3A1EED82D2C.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset'
