@@ -23,9 +23,10 @@
 /wd4838
 /we4668
 /I .
-/I "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Inc\LearningToDrive"
-/I "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Source"
-/I "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Source\LearningToDrive"
+/I ..\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles
+/I ..\Plugins\Runtime\PhysXVehicles\Source
+/I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public
+/I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -403,6 +404,17 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimGraphRuntime
+/I Runtime\AnimGraphRuntime\Public
+/I Runtime\AnimGraphRuntime
+/I Runtime\AnimGraphRuntime\Public\AnimNodes
+/I Runtime\AnimGraphRuntime\Public\AnimNotifies
+/I Runtime\AnimGraphRuntime\Public\BoneControllers
+/I Runtime\AnimGraphRuntime\Public\RBF
+/I ..\Plugins\Runtime\PhysXVehicles\Source\ThirdParty
+/I "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Inc\LearningToDrive"
+/I "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Source"
+/I "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Source\LearningToDrive"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
