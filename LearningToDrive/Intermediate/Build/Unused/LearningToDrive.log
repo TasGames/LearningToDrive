@@ -1,4 +1,21 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for LearningToDriveEditor (.uproject file is newer)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for LearningToDriveEditor
+    Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\LearningToDrive.uproject" "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\LearningToDriveEditor\Development\LearningToDriveEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for LearningToDriveEditor in 9.2356257 seconds
+  Building 9 actions with 4 processes...
+    [1/9] SharedPCH.Engine.cpp
+    [2/9] LearningToDrive.init.gen.cpp
+    [3/9] LearningToDriveGameModeBase.cpp
+    [4/9] LearningToDriveGameModeBase.gen.cpp
+    [5/9] PlayerCar.cpp
+    [6/9] PlayerCar.gen.cpp
+    [7/9] LearningToDrive.cpp
+    [8/9] UE4Editor-LearningToDrive.lib
+       Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.exp
+    [9/9] UE4Editor-LearningToDrive.dll
+       Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.suppressed.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.suppressed.exp
   Deploying LearningToDriveEditor Win64 Development...
-  Total build time: 3.27 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 48.61 seconds (Parallel executor: 30.65 seconds)
