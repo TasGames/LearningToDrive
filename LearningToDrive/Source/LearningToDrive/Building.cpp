@@ -14,8 +14,6 @@ ABuilding::ABuilding()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> UseMesh(TEXT("StaticMesh'/Game/MyContent/Meshes/SM_Building.SM_Building'"));
 	SMComponent->SetStaticMesh(UseMesh.Object);
 
-
-
 }
 
 // Called when the game starts or when spawned
@@ -23,6 +21,7 @@ void ABuilding::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	ChangeColour();
 }
 
 // Called every frame
@@ -32,3 +31,15 @@ void ABuilding::Tick(float DeltaTime)
 
 }
 
+void ABuilding::ChangeColour()
+{
+	if (SMComponent->GetMaterial(0))
+	{
+		MDynamic = UMaterialInstanceDynamic::Create(SMComponent->GetMaterial(0), this);
+
+		MDynamic->SetVectorParameterValue(FName(TEXT("Colour")), FLinearColor(0.0, 0.0, 0.5, 1.0));
+
+		SMComponent->SetMaterial(0, MDynamic);
+	}
+
+}

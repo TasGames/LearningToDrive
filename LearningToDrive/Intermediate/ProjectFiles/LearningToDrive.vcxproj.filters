@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\LearningToDrive.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{C498D8FC-158B-490E-9EBA-82CF23C4EB27}</UniqueIdentifier>
+			<UniqueIdentifier>{8BB31F01-D944-46B9-AF42-1960A134205A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\LearningToDrive.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0221A5B6-48AF-4309-8C20-1A3BFC97BCB3}</UniqueIdentifier>
+			<UniqueIdentifier>{BB16A5E4-4E1D-4D59-8225-9F472E9E7703}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\LearningToDrive">
-			<UniqueIdentifier>{AF2E8B01-86B5-4343-BDA6-00B6FEF6564E}</UniqueIdentifier>
+			<UniqueIdentifier>{55471638-2543-47D7-9568-55CB98740688}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\LearningToDrive\Building.cpp">
 			<Filter>Source\LearningToDrive</Filter>
