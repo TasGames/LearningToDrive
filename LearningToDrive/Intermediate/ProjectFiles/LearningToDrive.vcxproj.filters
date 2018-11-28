@@ -1,61 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\LearningToDrive.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{8BB31F01-D944-46B9-AF42-1960A134205A}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\LearningToDrive.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\LearningToDriveEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{BB16A5E4-4E1D-4D59-8225-9F472E9E7703}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\LearningToDrive">
-			<UniqueIdentifier>{55471638-2543-47D7-9568-55CB98740688}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\LearningToDrive\Building.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\Building.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\LearningToDrive\LearningToDrive.Build.cs">
-			<Filter>Source\LearningToDrive</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\LearningToDrive\LearningToDrive.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\LearningToDrive.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LearningToDrive\PlayerCar.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\PlayerCar.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LearningToDrive.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8BB31F01-D944-46B9-AF42-1960A134205A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearningToDrive.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LearningToDriveEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BB16A5E4-4E1D-4D59-8225-9F472E9E7703}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LearningToDrive">
+      <UniqueIdentifier>{55471638-2543-47D7-9568-55CB98740688}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LearningToDrive\Building.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\Building.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\LearningToDrive\LearningToDrive.Build.cs">
+      <Filter>Source\LearningToDrive</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LearningToDrive\LearningToDrive.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\LearningToDrive.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearningToDrive\PlayerCar.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\PlayerCar.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LearningToDrive\SpawnBuildings.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LearningToDrive\SpawnBuildings.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
