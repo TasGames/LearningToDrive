@@ -61,9 +61,15 @@
     <ClInclude Include="..\..\Source\LearningToDrive\SpawnBuildings.h">
       <Filter>Source\LearningToDrive</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LearningToDrive\BuildingManager.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\LearningToDrive\SpawnBuildings.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LearningToDrive\BuildingManager.cpp">
       <Filter>Source\LearningToDrive</Filter>
     </ClCompile>
   </ItemGroup>

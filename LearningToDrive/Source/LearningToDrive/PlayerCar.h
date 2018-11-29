@@ -16,8 +16,14 @@ class LEARNINGTODRIVE_API APlayerCar : public AWheeledVehicle
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* SpringArm;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* Arrow;
+
 	
 protected:
+
+	virtual void BeginPlay() override;
 
 	UPROPERTY(EditDefaultsOnly, Category = Wheels)
 	TSubclassOf<class UVehicleWheel> FrontWheel;
@@ -25,12 +31,18 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = Wheels)
 	TSubclassOf<class UVehicleWheel> RearWheel;
 
+	UPROPERTY(EditAnywhere, Category = BuildingManager)
+	class ABuildingManager* B;
+
+	void RotateArrow();
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 public:
 	
 	APlayerCar();
+
+	virtual void Tick(float DeltaTime) override;
 
 	void MoveForward(float Val);
 	void MoveRight(float Val);

@@ -1,14 +1,18 @@
 // Thomas Arthur Simon
 
 #include "PlayerCar.h"
+#include "BuildingManager.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
+#include "EngineUtils.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "WheeledVehicleMovementComponent4W.h"
 #include "VehicleWheel.h"
 
 APlayerCar::APlayerCar()
 {
+	PrimaryActorTick.bCanEverTick = true;
+
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->TargetOffset = FVector(0.f, 0.f, 200.f);
 	SpringArm->SetRelativeRotation(FRotator(-15.f, 0.f, 0.f));
@@ -23,6 +27,11 @@ APlayerCar::APlayerCar()
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	Camera->bUsePawnControlRotation = false;
 	Camera->FieldOfView = 90.f;
+
+	Arrow = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TorchMesh"));
+	Arrow->SetupAttachment(RootComponent);
+	Arrow->bCastDynamicShadow = false;
+	Arrow->CastShadow = false;
 
 	UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
 
@@ -46,6 +55,28 @@ APlayerCar::APlayerCar()
 
 }
 
+void APlayerCar::BeginPlay()
+{
+	Super::BeginPlay();
+
+	UWorld* World = GetWorld();
+
+	for (TActorIterator<ABuildingManager> It(World, ABuildingManager::StaticClass()); It; ++It)
+	{
+		ABuildingManager* BM = *It;
+
+		if (BM != NULL)
+			B = BM;
+	}
+}
+
+void APlayerCar::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	RotateArrow();
+}
+
 void APlayerCar::MoveForward(float Val)
 {
 	GetVehicleMovementComponent()->SetThrottleInput(Val);
@@ -64,6 +95,25 @@ void APlayerCar::OnHandbrakePressed()
 void APlayerCar::OnHandbrakeReleased()
 {
 	GetVehicleMovementComponent()->SetHandbrakeInput(false);
+}
+
+void APlayerCar::RotateArrow()
+{
+	//FVector BuildingLoc = B->GetTargetPosition();
+	FVector BuildingLoc = FVector(0.0f, 0.0f, 0.0f);
+	FVector CarLoc = GetActorLocation();
+
+	float DifX = BuildingLoc.X - CarLoc.X;
+	float DifY = BuildingLoc.Y - CarLoc.Y;
+
+	float XovY = DifX / DifY;
+
+	float Rot = FMath::Atan(XovY);
+
+	FRotator ArrowRot = Arrow->GetComponentRotation();
+	ArrowRot.Roll = Rot;
+	Arrow->SetRelativeRotation(ArrowRot);
+
 }
 
 void APlayerCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

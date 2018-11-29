@@ -410,7 +410,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\LearningToDrive-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\LearningToDrive\BuildingManager.cpp" />
     <ClCompile Include="..\..\Source\LearningToDrive\SpawnBuildings.cpp" />
+    <ClInclude Include="..\..\Source\LearningToDrive\BuildingManager.h" />
     <ClInclude Include="..\..\Source\LearningToDrive\SpawnBuildings.h" />
     <None Include="..\..\LearningToDrive.uproject" />
     <None Include="..\..\Source\LearningToDrive.Target.cs" />

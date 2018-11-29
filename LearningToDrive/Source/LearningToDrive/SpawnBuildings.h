@@ -20,7 +20,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	TArray<ABuilding*> ArrayOfBuilding;
+	//TArray<ABuilding*> ArrayOfBuilding;
 
 	FVector SpawnLoc;
 	FRotator Rot;
@@ -31,6 +31,5 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
 	
 };
