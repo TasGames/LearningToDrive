@@ -27,7 +27,5 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* SMComponent;
-
-	UMaterialInstanceDynamic* MDynamic;
 	
 };

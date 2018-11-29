@@ -35,11 +35,16 @@ void ABuilding::ChangeColour()
 {
 	if (SMComponent->GetMaterial(0))
 	{
-		MDynamic = UMaterialInstanceDynamic::Create(SMComponent->GetMaterial(0), this);
+		UMaterialInstanceDynamic* MDynamic = UMaterialInstanceDynamic::Create(SMComponent->GetMaterial(0), this);
 
-		MDynamic->SetVectorParameterValue(FName(TEXT("Colour")), FLinearColor(0.0, 0.0, 0.5, 1.0));
+		float RandR = FMath::RandRange(0.0f, 1.0f);
+		float RandG = FMath::RandRange(0.0f, 1.0f);
+		float RandB = FMath::RandRange(0.0f, 1.0f);
+
+		MDynamic->SetVectorParameterValue(FName(TEXT("Colour")), FLinearColor(RandR, RandG, RandB));
 
 		SMComponent->SetMaterial(0, MDynamic);
+
 	}
 
 }
