@@ -57,7 +57,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABuilding); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABuilding)
 
 
-#define LearningToDrive_Source_LearningToDrive_Building_h_12_PRIVATE_PROPERTY_OFFSET
+#define LearningToDrive_Source_LearningToDrive_Building_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SMComponent() { return STRUCT_OFFSET(ABuilding, SMComponent); } \
+	FORCEINLINE static uint32 __PPO__BoxComponent() { return STRUCT_OFFSET(ABuilding, BoxComponent); }
+
+
 #define LearningToDrive_Source_LearningToDrive_Building_h_9_PROLOG
 #define LearningToDrive_Source_LearningToDrive_Building_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

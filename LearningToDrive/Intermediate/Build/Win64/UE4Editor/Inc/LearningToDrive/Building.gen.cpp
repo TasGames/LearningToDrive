@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBuilding() {}
 	LEARNINGTODRIVE_API UClass* Z_Construct_UClass_ABuilding();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_LearningToDrive();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ABuilding::StaticRegisterNativesABuilding()
@@ -32,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeBuilding() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BoxComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BoxComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SMComponent_MetaData[];
 #endif
@@ -51,14 +56,23 @@ void EmptyLinkFunctionForGeneratedCodeBuilding() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABuilding_Statics::NewProp_BoxComponent_MetaData[] = {
+		{ "Category", "Building" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Building.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABuilding_Statics::NewProp_BoxComponent = { UE4CodeGen_Private::EPropertyClass::Object, "BoxComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ABuilding, BoxComponent), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABuilding_Statics::NewProp_BoxComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABuilding_Statics::NewProp_BoxComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent_MetaData[] = {
 		{ "Category", "Building" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Building.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent = { UE4CodeGen_Private::EPropertyClass::Object, "SMComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ABuilding, SMComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent = { UE4CodeGen_Private::EPropertyClass::Object, "SMComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ABuilding, SMComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABuilding_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABuilding_Statics::NewProp_BoxComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABuilding_Statics::NewProp_SMComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABuilding_Statics::StaticCppClassTypeInfo = {
@@ -84,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeBuilding() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABuilding, 2433788641);
+	IMPLEMENT_CLASS(ABuilding, 1587540693);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABuilding(Z_Construct_UClass_ABuilding, &ABuilding::StaticClass, TEXT("/Script/LearningToDrive"), TEXT("ABuilding"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABuilding);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

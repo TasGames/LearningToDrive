@@ -1,6 +1,7 @@
 // Thomas Arthur Simon
 
 #include "Building.h"
+#include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -13,6 +14,11 @@ ABuilding::ABuilding()
 	SMComponent->SetupAttachment(RootComponent);
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> UseMesh(TEXT("StaticMesh'/Game/MyContent/Meshes/SM_Building.SM_Building'"));
 	SMComponent->SetStaticMesh(UseMesh.Object);
+
+	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
+	BoxComponent->SetupAttachment(SMComponent);
+	BoxComponent->InitBoxExtent(FVector(600, 600, 250));
+	BoxComponent->SetCollisionProfileName("Trigger");
 
 }
 

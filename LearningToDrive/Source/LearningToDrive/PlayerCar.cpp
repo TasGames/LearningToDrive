@@ -99,10 +99,14 @@ void APlayerCar::OnHandbrakeReleased()
 void APlayerCar::RotateArrow()
 {
 	FVector BuildingLoc = B->GetTargetPosition();
-	//FVector BuildingLoc = FVector(0.0f, 0.0f, 0.0f);
 	FVector CarLoc = GetActorLocation();
 
-	
+	FVector newD = BuildingLoc - GetActorLocation();
+	newD.Z = 0.0f;
+	FRotator rotDir = newD.Rotation() - GetActorForwardVector().Rotation();	//calc diff in reqiddir&curr. dir
+	rotDir.Normalize();	//ensure rotation is a unit vector
+	FRotator TotRot = FRotator(-20.0f, rotDir.Yaw + 180.0f, rotDir.Roll);
+	Arrow->SetRelativeRotation(TotRot);
 
 }
 
