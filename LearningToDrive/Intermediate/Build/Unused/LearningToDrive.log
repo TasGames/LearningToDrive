@@ -1,77 +1,25 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for LearningToDriveEditor (game project files are newer)
+  Creating makefile for LearningToDriveEditor (no existing makefile)
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1381.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1381.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1830.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1830.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2301.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2301.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2706.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2706.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3141.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3141.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3303.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3303.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4269.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4269.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4389.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4389.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4613.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4613.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5341.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5341.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5397.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5397.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5587.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5587.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5615.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5615.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5666.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5666.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-623.dll".
-  Unable to delete old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-623.dll". Error: Access to the path 'A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-623.dll' is denied.
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-623.pdb".
-  Unable to delete old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-623.pdb". Error: Access to the path 'A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-623.pdb' is denied.
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6451.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6451.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6811.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6811.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6878.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6878.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7146.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7146.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7173.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7173.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7668.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7668.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8138.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8138.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8214.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8214.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8599.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8599.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8617.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8617.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-921.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-921.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9251.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9251.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-931.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-931.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9552.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9552.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9701.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9701.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9910.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9910.pdb".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9946.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9946.pdb".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3214.dll".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3214.pdb".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4300.dll".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4300.pdb".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4854.dll".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4854.pdb".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5057.dll".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5057.pdb".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6627.dll".
+  Unable to delete old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6627.dll". Error: Access to the path 'A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6627.dll' is denied.
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6627.pdb".
+  Unable to delete old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6627.pdb". Error: Access to the path 'A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6627.pdb' is denied.
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-991.dll".
+  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-991.pdb".
   Building 3 actions with 4 processes...
-    [1/3] Building.cpp
+    [1/3] Passenger.cpp
     [2/3] UE4Editor-LearningToDrive.lib
        Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.exp
     [3/3] UE4Editor-LearningToDrive.dll
        Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.suppressed.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.suppressed.exp
   Deploying LearningToDriveEditor Win64 Development...
-  Total build time: 6.48 seconds (Parallel executor: 1.63 seconds)
+  Total build time: 6.05 seconds (Parallel executor: 1.53 seconds)

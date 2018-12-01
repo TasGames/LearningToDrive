@@ -1,73 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\LearningToDrive.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{81C32AAF-55DC-4B90-8425-A52ADFA32648}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\LearningToDrive.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\LearningToDriveEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{61302A0E-B03F-4FFD-804F-5B3327BADBBF}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\LearningToDrive">
-			<UniqueIdentifier>{853032B3-A84C-421B-A36D-347BC300057F}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\LearningToDrive\Building.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\Building.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LearningToDrive\BuildingManager.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\BuildingManager.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\LearningToDrive\LearningToDrive.Build.cs">
-			<Filter>Source\LearningToDrive</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\LearningToDrive\LearningToDrive.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\LearningToDrive.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LearningToDrive\PlayerCar.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\PlayerCar.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LearningToDrive\SpawnBuildings.cpp">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearningToDrive\SpawnBuildings.h">
-			<Filter>Source\LearningToDrive</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LearningToDrive.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{88301D08-F665-4FBB-AD92-88F93D74409B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearningToDrive.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LearningToDriveEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A9CEFFC5-CEAA-4183-8844-6E9C559A21CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LearningToDrive">
+      <UniqueIdentifier>{77BA48E0-55C1-4E2B-8D70-E7417EF93C85}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LearningToDrive\Building.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\Building.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearningToDrive\BuildingManager.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\BuildingManager.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\LearningToDrive\LearningToDrive.Build.cs">
+      <Filter>Source\LearningToDrive</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LearningToDrive\LearningToDrive.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\LearningToDrive.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\LearningToDriveGameModeBase.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearningToDrive\PlayerCar.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\PlayerCar.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearningToDrive\SpawnBuildings.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearningToDrive\SpawnBuildings.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LearningToDrive\Passenger.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LearningToDrive\Passenger.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
