@@ -60,8 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCar); \
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(APlayerCar, Camera); } \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(APlayerCar, SpringArm); } \
-	FORCEINLINE static uint32 __PPO__FrontWheel() { return STRUCT_OFFSET(APlayerCar, FrontWheel); } \
-	FORCEINLINE static uint32 __PPO__RearWheel() { return STRUCT_OFFSET(APlayerCar, RearWheel); }
+	FORCEINLINE static uint32 __PPO__Arrow() { return STRUCT_OFFSET(APlayerCar, Arrow); } \
+	FORCEINLINE static uint32 __PPO__B() { return STRUCT_OFFSET(APlayerCar, B); }
 
 
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_9_PROLOG

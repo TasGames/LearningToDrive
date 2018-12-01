@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\LearningToDrive.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{0DF5C2D9-3F3F-468A-ABC9-17D80BE50D84}</UniqueIdentifier>
+			<UniqueIdentifier>{81C32AAF-55DC-4B90-8425-A52ADFA32648}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\LearningToDrive.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{C0088383-C838-4C79-A9CF-E700D76384AE}</UniqueIdentifier>
+			<UniqueIdentifier>{61302A0E-B03F-4FFD-804F-5B3327BADBBF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,8 +28,20 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\LearningToDrive">
-			<UniqueIdentifier>{69DA303D-6B83-43E7-8E8B-D68038B82EB4}</UniqueIdentifier>
+			<UniqueIdentifier>{853032B3-A84C-421B-A36D-347BC300057F}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\LearningToDrive\Building.cpp">
+			<Filter>Source\LearningToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearningToDrive\Building.h">
+			<Filter>Source\LearningToDrive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LearningToDrive\BuildingManager.cpp">
+			<Filter>Source\LearningToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearningToDrive\BuildingManager.h">
+			<Filter>Source\LearningToDrive</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\LearningToDrive\LearningToDrive.Build.cs">
 			<Filter>Source\LearningToDrive</Filter>
 		</None >
@@ -49,6 +61,12 @@
 			<Filter>Source\LearningToDrive</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\LearningToDrive\PlayerCar.h">
+			<Filter>Source\LearningToDrive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LearningToDrive\SpawnBuildings.cpp">
+			<Filter>Source\LearningToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearningToDrive\SpawnBuildings.h">
 			<Filter>Source\LearningToDrive</Filter>
 		</ClInclude >
 	</ItemGroup>
