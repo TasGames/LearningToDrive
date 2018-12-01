@@ -1,37 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1431.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1431.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1841.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-1841.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2463.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2463.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2503.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2503.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3099.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-3099.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4604.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-4604.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5120.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5120.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5612.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-5612.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6519.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-6519.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7008.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7008.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7166.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-7166.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8193.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8193.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8892.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-8892.pdb".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9894.dll".
-  Deleting old hot reload file: "C:\Temp\TAS\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-9894.pdb".
-  Building 3 actions with 8 processes...
-    Building.cpp
-    UE4Editor-LearningToDrive.lib
-       Creating library C:\Temp\TAS\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.lib and object C:\Temp\TAS\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.exp
-    UE4Editor-LearningToDrive.dll
-       Creating library C:\Temp\TAS\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.suppressed.lib and object C:\Temp\TAS\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive.suppressed.exp
+  Creating makefile for hot reloading LearningToDriveEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
   Deploying LearningToDriveEditor Win64 Development...
-  Total build time: 3.65 seconds (Parallel executor: 1.88 seconds)
+  Total build time: 5.27 seconds (NoActionsToExecute executor: 0.00 seconds)

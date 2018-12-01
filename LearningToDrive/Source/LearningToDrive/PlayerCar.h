@@ -25,12 +25,6 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly, Category = Wheels)
-	TSubclassOf<class UVehicleWheel> FrontWheel;
-
-	UPROPERTY(EditDefaultsOnly, Category = Wheels)
-	TSubclassOf<class UVehicleWheel> RearWheel;
-
 	UPROPERTY(EditAnywhere, Category = BuildingManager)
 	class ABuildingManager* B;
 
