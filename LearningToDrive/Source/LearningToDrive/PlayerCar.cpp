@@ -28,10 +28,22 @@ APlayerCar::APlayerCar()
 	Camera->bUsePawnControlRotation = false;
 	Camera->FieldOfView = 90.f;
 
-	Arrow = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TorchMesh"));
+	Arrow = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ArrowMesh"));
 	Arrow->SetupAttachment(RootComponent);
 	Arrow->bCastDynamicShadow = false;
 	Arrow->CastShadow = false;
+	Arrow->SetVisibility(false);
+
+	SM_Driver = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DriverMesh"));
+	SM_Driver->SetupAttachment(RootComponent);
+	SM_Driver->bCastDynamicShadow = false;
+	SM_Driver->CastShadow = false;
+
+	SM_Passenger = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PassengerMesh"));
+	SM_Passenger->SetupAttachment(RootComponent);
+	SM_Passenger->bCastDynamicShadow = false;
+	SM_Passenger->CastShadow = false;
+	SM_Passenger->SetVisibility(false);
 
 	UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
 
@@ -49,6 +61,7 @@ APlayerCar::APlayerCar()
 	Vehicle4W->WheelSetups[3].BoneName = FName("Wheel_Rear_Right");
 	Vehicle4W->WheelSetups[3].AdditionalOffset = FVector(0.f, 12.f, 0.f);
 
+	HasPassenger = false;
 }
 
 void APlayerCar::BeginPlay()
@@ -94,6 +107,14 @@ void APlayerCar::OnHandbrakePressed()
 void APlayerCar::OnHandbrakeReleased()
 {
 	GetVehicleMovementComponent()->SetHandbrakeInput(false);
+}
+
+void APlayerCar::PickupPassenger()
+{
+	HasPassenger = true;
+	SM_Passenger->SetVisibility(true);
+	Arrow->SetVisibility(true);
+
 }
 
 void APlayerCar::RotateArrow()

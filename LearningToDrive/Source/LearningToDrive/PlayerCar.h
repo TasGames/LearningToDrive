@@ -20,6 +20,11 @@ class LEARNINGTODRIVE_API APlayerCar : public AWheeledVehicle
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* Arrow;
 
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* SM_Driver;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* SM_Passenger;
 	
 protected:
 
@@ -42,5 +47,9 @@ public:
 	void MoveRight(float Val);
 	void OnHandbrakePressed();
 	void OnHandbrakeReleased();
+
+	void PickupPassenger();
+
+	bool HasPassenger;
 
 };
