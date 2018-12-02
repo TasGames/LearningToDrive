@@ -46,8 +46,11 @@ void APassenger::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * O
 		APlayerCar *P = Cast<APlayerCar>(OtherActor);
 		if (P != NULL)
 		{
-			Destroy();
-			P->PickupPassenger();
+			if (P->HasPassenger == false)
+			{
+				Destroy();
+				P->PickupPassenger();
+			}
 		}
 	}
 }
