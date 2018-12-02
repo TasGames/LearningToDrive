@@ -1,0 +1,561 @@
+﻿Log file open, 12/01/18 23:10:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LearningToDrive
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.181497
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.120s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.01-23.10.54:457][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-23.10.54:457][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.01-23.10.54:466][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.01-23.10.54:466][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.01-23.10.54:466][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.01-23.10.54:466][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2018.12.01-23.10.54:466][  0]LogInit: User: ThomasSimon
+[2018.12.01-23.10.54:466][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.01-23.10.54:466][  0]LogInit: High frequency timer resolution =3.234375 MHz
+[2018.12.01-23.10.54:466][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.01-23.10.54:466][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.01-23.10.54:466][  0]LogMemory: Process Physical Memory: 100.75 MB used, 100.75 MB peak
+[2018.12.01-23.10.54:466][  0]LogMemory: Process Virtual Memory: 84.38 MB used, 84.38 MB peak
+[2018.12.01-23.10.54:466][  0]LogMemory: Physical Memory: 4813.68 MB used,  11510.05 MB free, 16323.73 MB total
+[2018.12.01-23.10.54:466][  0]LogMemory: Virtual Memory: 4625.40 MB used,  11510.05 MB free, 134217728.00 MB total
+[2018.12.01-23.10.54:489][  0]LogInit: Using OS detected language (en-GB).
+[2018.12.01-23.10.54:489][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.01-23.10.54:489][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.12.01-23.10.54:842][  0]LogStreaming: Display: Took  0.354s to InitEngineTextLocalization.
+[2018.12.01-23.10.54:843][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.01-23.10.54:882][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.01-23.10.54:882][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.01-23.10.55:047][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-23.10.55:048][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.01-23.10.55:118][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.12.01-23.10.55:118][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.12.01-23.10.55:120][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.01-23.10.55:120][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.01-23.10.55:120][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.01-23.10.55:125][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.01-23.10.55:125][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.01-23.10.55:126][  0]LogWindows: EnumDisplayDevices:
+[2018.12.01-23.10.55:126][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.12.01-23.10.55:126][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.12.01-23.10.55:126][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.12.01-23.10.55:126][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.12.01-23.10.55:127][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.01-23.10.55:127][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.12.01-23.10.55:127][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.12.01-23.10.55:127][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.12.01-23.10.55:127][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.12.01-23.10.55:159][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.01-23.10.55:176][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.01-23.10.55:227][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Intermediate/Shaders/WorkingDirectory/7624/).
+[2018.12.01-23.10.55:228][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/5447FA6A433EBCB29B8109A3B7061D87/'.
+[2018.12.01-23.10.55:494][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.01-23.10.55:506][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.01-23.10.55:517][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.01-23.10.55:530][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.01-23.10.55:543][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.01-23.10.55:556][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.01-23.10.55:568][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.01-23.10.55:581][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.01-23.10.55:587][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.01-23.10.55:662][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-23.10.55:664][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.01-23.10.55:721][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-23.10.55:721][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-23.10.55:742][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-23.10.55:742][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-23.10.55:754][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.01-23.10.55:765][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.01-23.10.55:777][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.01-23.10.55:790][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.01-23.10.55:798][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.01-23.10.55:798][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.01-23.10.55:854][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.01-23.10.55:854][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.01-23.10.55:854][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.01-23.10.55:854][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.01-23.10.56:520][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.01-23.10.56:575][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.01-23.10.56:575][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.01-23.10.56:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.01-23.10.56:575][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.01-23.10.56:576][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.01-23.10.56:576][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.01-23.10.56:588][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.01-23.10.56:602][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.01-23.10.56:602][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.01-23.10.56:602][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.01-23.10.56:620][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.01-23.10.56:622][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.01-23.10.56:625][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.01-23.10.56:698][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.12.01-23.10.56:985][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-23.10.57:113][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.01-23.10.57:116][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.01-23.10.57:116][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.01-23.10.57:116][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.01-23.10.57:116][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.01-23.10.57:141][  0]LogNetVersion: LearningToDrive 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1667456807)
+[2018.12.01-23.10.57:673][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.142813 seconds
+[2018.12.01-23.10.57:679][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.01-23.10.57:679][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.01-23.10.57:679][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.01-23.10.59:237][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.01-23.10.59:250][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.01-23.10.59:416][  0]SourceControl: Source control is disabled
+[2018.12.01-23.10.59:416][  0]SourceControl: Source control is disabled
+[2018.12.01-23.10.59:417][  0]SourceControl: Source control is disabled
+[2018.12.01-23.10.59:418][  0]SourceControl: Source control is disabled
+[2018.12.01-23.10.59:584][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.01-23.10.59:631][  0]LogOcInput: OculusInput pre-init called
+[2018.12.01-23.10.59:689][  0]LogEngine: Initializing Engine...
+[2018.12.01-23.10.59:690][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-23.10.59:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-23.10.59:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-23.10.59:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-23.10.59:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-23.10.59:881][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.01-23.10.59:893][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.01-23.10.59:912][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-23.10.59:928][  0]LogInit: FAudioDevice initialized.
+[2018.12.01-23.10.59:928][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.01-23.11.00:002][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.01-23.11.00:008][  0]LogInit: Texture streaming: Enabled
+[2018.12.01-23.11.00:028][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.01-23.11.00:040][  0]LogInit: Transaction tracking system initialized
+[2018.12.01-23.11.00:067][  0]BlueprintLog: New page: Editor Load
+[2018.12.01-23.11.00:151][  0]LocalizationService: Localization service is disabled
+[2018.12.01-23.11.00:396][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.01-23.11.00:396][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.01-23.11.00:396][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.01-23.11.00:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-23.11.00:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-23.11.00:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-23.11.00:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-23.11.00:523][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/' took 0.01s
+[2018.12.01-23.11.00:523][  0]SourceControl: Source control is disabled
+[2018.12.01-23.11.00:523][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.01-23.11.00:523][  0]LightingResults: New page: Lighting Build
+[2018.12.01-23.11.00:526][  0]MapCheck: New page: Map Check
+[2018.12.01-23.11.00:526][  0]LightingResults: New page: Lighting Build
+[2018.12.01-23.11.00:641][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
+[2018.12.01-23.11.00:641][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap.
+[2018.12.01-23.11.00:641][  0]LoadErrors: Error: /Game/MyContent/Maps/Main : Can't find file for asset. /Game/MyContent/Maps/Main_BuiltData
+[2018.12.01-23.11.00:644][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
+[2018.12.01-23.11.00:644][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap.
+[2018.12.01-23.11.00:644][  0]LoadErrors: Error: /Game/MyContent/Maps/Main : Can't find file for asset. /Game/MyContent/Maps/Main_BuiltData
+[2018.12.01-23.11.00:662][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
+[2018.12.01-23.11.00:662][  0]LoadErrors: Failed to load /Game/MyContent/Maps/Main_BuiltData.Main_BuiltData Referenced by PersistentLevel
+[2018.12.01-23.11.00:662][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading NULL.
+[2018.12.01-23.11.00:662][  0]LoadErrors: Failed to load /Game/MyContent/Maps/Main_BuiltData.Main_BuiltData Referenced by PersistentLevel
+[2018.12.01-23.11.00:747][  0]LogAIModule: Creating AISystem for world Main
+[2018.12.01-23.11.00:755][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.01-23.11.00:777][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.01-23.11.00:839][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.87ms to complete.
+[2018.12.01-23.11.00:839][  0]LogFileHelpers: Loading map 'Main' took 0.316
+[2018.12.01-23.11.00:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.11.00:986][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.11.00:994][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.11.01:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.11.01:006][  0]LogCollectionManager: Loaded 0 collections in 0.001313 seconds
+[2018.12.01-23.11.01:060][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Collections/' took 0.01s
+[2018.12.01-23.11.01:060][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2018.12.01-23.11.01:060][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Collections/' took 0.01s
+[2018.12.01-23.11.01:060][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.01-23.11.01:068][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2579 classes and 607 folders.
+[2018.12.01-23.11.01:074][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.01-23.11.01:172][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.01-23.11.02:223][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.12.01-23.11.02:247][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.01-23.11.02:250][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.01-23.11.02:260][  0]LogSlate: Took 0.005701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.01-23.11.02:333][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LearningToDrive
+[2018.12.01-23.11.02:333][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.01-23.11.02:333][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.12.01-23.11.02:333][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.01-23.11.02:333][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.12.01-23.11.02:333][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.12.01-23.11.02:333][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
+[2018.12.01-23.11.02:454][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.01-23.11.02:454][  0]LogLoad: (Engine Initialization) Total time: 9.33 seconds
+[2018.12.01-23.11.02:454][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.01-23.11.02:464][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.01-23.11.02:489][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.01-23.11.02:543][  1]LogAssetRegistry: Asset discovery search completed in 5.8682 seconds
+[2018.12.01-23.11.02:545][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.12.01-23.11.02:545][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2018.12.01-23.11.03:486][111]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-23.11.05:182][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.11.06:353][451]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-23.11.15:366][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.11.17:739][810]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.11.18:765][933]MapCheck: New page: Map Check
+[2018.12.01-23.11.18:789][933]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.11.18:794][933]Cmd: MAP REBUILD ALLVISIBLE
+[2018.12.01-23.11.18:795][933]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.12.01-23.11.18:896][933]LightingResults: New page: Lighting Build - 1 Dec 2018 23:11:18
+[2018.12.01-23.11.18:942][933]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.12.01-23.11.19:003][933]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.12.01-23.11.19:016][933]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.12.01-23.11.19:542][933]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.12.01-23.11.19:542][933]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7624
+[2018.12.01-23.11.24:555][933]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.12.01-23.11.24:556][933]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.12.01-23.11.24:556][933]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.12.01-23.11.24:556][933]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.12.01-23.11.24:556][933]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.12.01-23.11.24:556][933]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.12.01-23.11.24:816][933]LogEditorBuildUtils: Build time 0:06
+[2018.12.01-23.11.31:078][953]Job is a success!
+[2018.12.01-23.11.31:506][954]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.034s
+[2018.12.01-23.11.31:506][954]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.12.01-23.11.31:506][954]LogVolumetricLightmapImport:      BrickData 1275x5x5 = 1.1Mb
+[2018.12.01-23.11.31:506][954]LogVolumetricLightmapImport:      Bricks at Level
+[2018.12.01-23.11.31:506][954]LogVolumetricLightmapImport:          0: 0.4% covering 100.0% of volume
+[2018.12.01-23.11.31:506][954]LogVolumetricLightmapImport:          1: 6.3% covering 25.0% of volume
+[2018.12.01-23.11.31:506][954]LogVolumetricLightmapImport:          2: 93.3% covering 5.8% of volume
+[2018.12.01-23.11.32:250][954]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.12.01-23.11.32:250][954]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.12.01-23.11.32:250][954]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.12.01-23.11.32:250][954]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.12.01-23.11.32:250][954]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.12.01-23.11.32:250][954]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.12.01-23.11.32:451][954]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.12.01-23.11.32:472][954]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2018.12.01-23.11.32:496][954]Lightmass on DESKTOP-C6U4EA4: 6.70 sec total, 97 ms importing, 8 ms setup, 787 ms photons, 5.75 sec processing, 0 ms extra exporting [151/151 mappings]. Threads: 22.9 sec total, 7.73 sec processing.
+[2018.12.01-23.11.32:561][954]LogStaticLightingSystem: Illumination: 13.3 sec (549 ms encoding lightmaps, 215 ms encoding shadowmaps)
+[2018.12.01-23.11.32:561][954]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (0.0 MB streaming, 4.0 MB non-streaming), 6 textures
+[2018.12.01-23.11.32:561][954]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2018.12.01-23.11.33:562][954]DumpUnbuiltLightIteractions
+[2018.12.01-23.11.33:562][954]Lights with unbuilt interactions: 0
+[2018.12.01-23.11.33:563][954]
+[2018.12.01-23.11.33:563][954]Primitives with unbuilt interactions: 0
+[2018.12.01-23.11.33:626][955]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.12.01-23.11.33:627][955]MapCheck: New page: Main - 1 Dec 2018 23:11:33
+[2018.12.01-23.11.33:694][955]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.35ms to complete.
+[2018.12.01-23.11.40:393][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.11.40:594][438]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/MainF7D124EA4AE6335021822EA5FEED8F51.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap'
+[2018.12.01-23.11.40:623][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.12.01-23.11.40:730][438]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main_BuiltDataE197375041552A8AA48B86A2AAE32730.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.12.01-23.11.43:033][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.11.48:084][311]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/MyContent/Meshes/SM_Mark.SM_Mark
+[2018.12.01-23.11.48:533][311]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2018.12.01-23.11.48:533][311]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.01-23.11.52:569][765]LogSlate: Window 'SM_Mark' being destroyed
+[2018.12.01-23.11.54:398][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.11.56:607][234]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Passenger2.Bp_Passenger2
+[2018.12.01-23.11.57:020][234]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.12.01-23.12.00:287][534]LogSlate: Window 'Bp_Passenger2' being destroyed
+[2018.12.01-23.12.00:359][534]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.12.00:362][534]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Passenger2.Bp_Passenger2
+[2018.12.01-23.12.00:647][534]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.01-23.13.06:575][188]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.13.15:298][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.13.15:373][214]BlueprintLog: New page: Compile Bp_Passenger2
+[2018.12.01-23.13.16:013][260]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Bp_Passenger2E96ED8E04A028891E8721F914FC36CA1.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Blueprints/Bp_Passenger2.uasset'
+[2018.12.01-23.13.17:934][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.13.18:020][486]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.12.01-23.13.18:033][486]Candidate modules for hot reload:
+[2018.12.01-23.13.18:033][486]  LearningToDrive
+[2018.12.01-23.13.18:033][486]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LearningToDrive,1733 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" ]
+[2018.12.01-23.13.18:039][486]Warning: Starting HotReload took  0.0s.
+[2018.12.01-23.13.23:005][993]LogActor: Warning: Building /Engine/Transient.World_6:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.24:907][194]LogAssetEditorManager: Opening Asset editor for Class /Script/LearningToDrive.Passenger
+[2018.12.01-23.13.25:320][220]CompilerResultsLog: New page: Compilation - 1 Dec 2018 23:13:25
+[2018.12.01-23.13.25:320][220]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.01-23.13.25:321][220]CompilerResultsLog: Creating makefile for hot reloading LearningToDriveEditor (game project files are newer)
+[2018.12.01-23.13.25:321][220]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.01-23.13.25:321][220]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.01-23.13.25:321][220]CompilerResultsLog: Target is up to date
+[2018.12.01-23.13.25:321][220]CompilerResultsLog: Total build time: 6.87 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.01-23.13.25:321][220]LogMainFrame: MainFrame: Module compiling took 7.300 seconds
+[2018.12.01-23.13.25:602][220]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2579 classes and 607 folders.
+[2018.12.01-23.13.25:602][220]Display: HotReload took  7.6s.
+[2018.12.01-23.13.38:050][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.13.38:093][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.13.38:136][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.13.38:178][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.13.39:488][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-23.13.43:193][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.13.43:202][895]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-23.13.43:229][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-23.13.43:241][895]PIE: New page: PIE session: Main (1 Dec 2018 23:13:43)
+[2018.12.01-23.13.43:241][895]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-23.13.43:255][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014297s)
+[2018.12.01-23.13.43:256][895]LogAIModule: Creating AISystem for world Main
+[2018.12.01-23.13.43:256][895]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2018.12.01-23.13.43:256][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015274s)
+[2018.12.01-23.13.43:310][895]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-23.13.43:424][895]LogInit: FAudioDevice initialized.
+[2018.12.01-23.13.43:536][895]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-23.13.43:539][895]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-23.13.43
+[2018.12.01-23.13.43:540][895]LogWorld: Bringing up level for play took: 0.002059
+[2018.12.01-23.13.43:571][895]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.12.01-23.13.43:573][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:574][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:574][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:574][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:574][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:574][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:575][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:575][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:575][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:575][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:575][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:575][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:575][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:576][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:576][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:576][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:576][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:576][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:576][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:576][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:577][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:577][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:577][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:577][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:577][895]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.43:578][895]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.259
+[2018.12.01-23.13.53:776][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.13.53:814][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-23.13.53:848][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.13.53:916][537]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.01-23.13.54:581][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.13.54:679][593]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-23.13.54:711][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-23.13.54:711][593]PIE: New page: PIE session: Main (1 Dec 2018 23:13:54)
+[2018.12.01-23.13.54:711][593]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-23.13.54:726][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014750s)
+[2018.12.01-23.13.54:726][593]LogAIModule: Creating AISystem for world Main
+[2018.12.01-23.13.54:726][593]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2018.12.01-23.13.54:726][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015532s)
+[2018.12.01-23.13.54:761][593]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-23.13.54:902][593]LogInit: FAudioDevice initialized.
+[2018.12.01-23.13.54:931][593]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-23.13.54:933][593]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-23.13.54
+[2018.12.01-23.13.54:933][593]LogWorld: Bringing up level for play took: 0.001934
+[2018.12.01-23.13.54:946][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:947][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:947][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:947][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:947][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:947][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:947][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:947][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:948][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:948][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:948][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:948][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:948][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:948][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:949][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:949][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:949][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:949][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:949][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:949][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:949][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:950][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:950][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:950][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:950][593]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-23.13.54:950][593]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.368
+[2018.12.01-23.14.33:793][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.14.33:831][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-23.14.33:864][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-23.14.33:924][223]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.12.01-23.14.39:272][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-23.14.40:718][782]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/MainA71BDB444E89DA7D486F919C21BBA44C.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap'
+[2018.12.01-23.14.40:759][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.12.01-23.14.40:881][782]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main_BuiltData6B348C604DC2547CC6B82892C9DF7B20.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.12.02-00.51.53:177][844]LogEditorViewport: Clicking on Actor (LMB): Bp_Passenger2_C (Bp_Passenger3)
+[2018.12.02-00.51.53:841][894]LogEditorViewport: Clicking on Actor (LMB): Bp_Passenger2_C (Bp_Passenger3)
+[2018.12.02-00.51.56:241][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-00.52.02:719][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-00.52.09:769][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-00.52.09:965][534]LogAssetEditorManager: Opening Asset editor for Class /Script/LearningToDrive.Passenger
+[2018.12.02-00.53.00:863][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-00.53.01:147][786]Candidate modules for hot reload:
+[2018.12.02-00.53.01:147][786]  LearningToDrive
+[2018.12.02-00.53.01:147][786]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LearningToDrive,8745 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" ]
+[2018.12.02-00.53.01:156][786]Warning: Starting HotReload took  0.0s.
+[2018.12.02-00.53.18:906][637]CompilerResultsLog: New page: Compilation - 2 Dec 2018 00:53:18
+[2018.12.02-00.53.18:906][637]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.02-00.53.18:906][637]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.02-00.53.18:906][637]CompilerResultsLog: Parsing headers for LearningToDriveEditor
+[2018.12.02-00.53.18:906][637]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\LearningToDrive.uproject" "A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\LearningToDriveEditor\Development\LearningToDriveEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.02-00.53.18:906][637]CompilerResultsLog: Reflection code generated for LearningToDriveEditor in 12.2388665 seconds
+[2018.12.02-00.53.18:906][637]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.12.02-00.53.18:906][637]CompilerResultsLog:   [1/5] LearningToDrive.init.gen.cpp
+[2018.12.02-00.53.18:906][637]CompilerResultsLog:   [2/5] Passenger.gen.cpp
+[2018.12.02-00.53.18:906][637]CompilerResultsLog:   [3/5] Passenger.cpp
+[2018.12.02-00.53.18:906][637]CompilerResultsLog:   [4/5] UE4Editor-LearningToDrive-8745.lib
+[2018.12.02-00.53.18:907][637]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-8745.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-8745.exp
+[2018.12.02-00.53.18:907][637]CompilerResultsLog:   [5/5] UE4Editor-LearningToDrive-8745.dll
+[2018.12.02-00.53.18:907][637]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-8745.suppressed.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-8745.suppressed.exp
+[2018.12.02-00.53.18:907][637]CompilerResultsLog: Total build time: 17.15 seconds (Parallel executor: 2.74 seconds)
+[2018.12.02-00.53.18:907][637]LogMainFrame: MainFrame: Module compiling took 17.774 seconds
+[2018.12.02-00.53.18:962][637]LogClass: Could not find existing class Passenger in package /Script/LearningToDrive for HotReload, assuming new class
+[2018.12.02-00.53.18:966][637]LogWindows: Windows GetLastError: The operation completed successfully. (0)

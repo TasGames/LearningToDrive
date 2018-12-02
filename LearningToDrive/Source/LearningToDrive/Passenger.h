@@ -11,8 +11,11 @@ class LEARNINGTODRIVE_API APassenger : public AActor
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	UStaticMeshComponent* SMComponent;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	UStaticMeshComponent* SMAlert;
 
 	UPROPERTY(EditAnywhere)
 	class UBoxComponent* BoxComponent;

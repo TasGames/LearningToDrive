@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-2A4043C04B30905E26B3C48EEDAAF287_0000</CrashGUID>
+		<ProcessId>15724</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-LearningToDrive</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.20.3-4369336+++UE4+Release-4.20</EngineVersion>
+		<CommandLine>&quot;A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\LearningToDrive.uproject&quot;</CommandLine>
+		<LanguageLCID>2057</LanguageLCID>
+		<AppDefaultLocale>en-GB</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.20-CL-4369336</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>ThomasSimon</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.20/</RootDir>
+		<MachineId>5FDFB9EB4A3AF766A039A8B9B40F75DC</MachineId>
+		<LoginId>5fdfb9eb4a3af766a039a8b9b40f75dc</LoginId>
+		<EpicAccountId>75455451a11a4e86936f96d58b7d0fbf</EpicAccountId>
+		<CallStack />
+		<PCallStack>UE4Editor-CoreUObject 0x000000005a250000 + 3d4ef4 UE4Editor-CoreUObject 0x000000005a250000 + 2f8b1e UE4Editor-LearningToDrive 0x0000000042800000 + 4ff3 UE4Editor-CoreUObject 0x000000005a250000 + 13aafd UE4Editor-CoreUObject 0x000000005a250000 + 41dcf8 UE4Editor-CoreUObject 0x000000005a250000 + 3fda9f UE4Editor-CoreUObject 0x000000005a250000 + 140a57 UE4Editor-Core 0x000000005a8e0000 + 12e08e UE4Editor-Core 0x000000005a8e0000 + 2e7851 UE4Editor-Projects 0x0000000087a20000 + 1d11c UE4Editor-Projects 0x0000000087a20000 + 1d404 UE4Editor 0x0000000081c30000 + 18521 UE4Editor 0x0000000081c30000 + 1d907 UE4Editor 0x0000000081c30000 + 15968 UE4Editor 0x0000000081c30000 + 15bba UE4Editor 0x0000000081c30000 + 23dac UE4Editor 0x0000000081c30000 + 25aaa KERNEL32 0x00000000ab5d0000 + 13034 ntdll 0x00000000acc70000 + 71471</PCallStack>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 3751] Default subobject StaticMeshComponent statisMeshComponent already exists for Passenger /Script/LearningToDrive.Default__Passenger.</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 970</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>17116667904</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>10332790784</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140731846889472</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>596676608</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>596676608</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>615669760</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>615669760</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636793088616500000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

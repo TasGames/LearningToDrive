@@ -12,12 +12,14 @@ APassenger::APassenger()
 	PrimaryActorTick.bCanEverTick = true;
 
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
-	BoxComponent->InitBoxExtent(FVector(100, 100, 100));
+	BoxComponent->InitBoxExtent(FVector(50, 100, 80));
 	RootComponent = BoxComponent;
 
 	SMComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("statisMeshComponent"));
 	SMComponent->SetupAttachment(RootComponent);
 
+	SMAlert = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StatisMeshComponent2"));
+	SMAlert->SetupAttachment(SMComponent);
 }
 
 // Called when the game starts or when spawned

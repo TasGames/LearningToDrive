@@ -59,6 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APassenger); \
 
 #define LearningToDrive_Source_LearningToDrive_Passenger_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SMComponent() { return STRUCT_OFFSET(APassenger, SMComponent); } \
+	FORCEINLINE static uint32 __PPO__SMAlert() { return STRUCT_OFFSET(APassenger, SMAlert); } \
 	FORCEINLINE static uint32 __PPO__BoxComponent() { return STRUCT_OFFSET(APassenger, BoxComponent); }
 
 

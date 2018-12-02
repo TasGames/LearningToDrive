@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeLearningToDrive_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/LearningToDrive",
 				PKG_CompiledIn | 0x00000000,
-				0x221BA0DB,
+				0x282F76E8,
 				0x55DE2609,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
