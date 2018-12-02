@@ -78,8 +78,6 @@ void APlayerCar::BeginPlay()
 			B = BM;
 	}
 
-	B->SetTargetPosition();
-	FVector BuildingLoc = B->GetTargetPosition();
 }
 
 void APlayerCar::Tick(float DeltaTime)
@@ -115,6 +113,16 @@ void APlayerCar::PickupPassenger()
 	SM_Passenger->SetVisibility(true);
 	Arrow->SetVisibility(true);
 
+	B->SetTargetPosition();
+	FVector BuildingLoc = B->GetTargetPosition();
+
+}
+
+void APlayerCar::DropOffPassenger()
+{
+	HasPassenger = false;
+	SM_Passenger->SetVisibility(false);
+	Arrow->SetVisibility(false);
 }
 
 void APlayerCar::RotateArrow()

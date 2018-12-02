@@ -49,6 +49,7 @@ public:
 	void OnHandbrakeReleased();
 
 	void PickupPassenger();
+	void DropOffPassenger();
 
 	bool HasPassenger;
 
