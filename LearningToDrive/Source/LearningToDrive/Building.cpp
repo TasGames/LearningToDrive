@@ -69,6 +69,7 @@ void ABuilding::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * Ot
 			if (P != NULL)
 			{
 				P->DropOffPassenger();
+				P->NumPassengers += 1;
 				IsActive = false;
 			}
 		}

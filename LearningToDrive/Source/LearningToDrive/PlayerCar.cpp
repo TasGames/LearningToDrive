@@ -78,6 +78,7 @@ void APlayerCar::BeginPlay()
 			B = BM;
 	}
 
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &APlayerCar::RepeatingFunction, 1.0f);
 }
 
 void APlayerCar::Tick(float DeltaTime)
@@ -137,6 +138,17 @@ void APlayerCar::RotateArrow()
 	FRotator TotRot = FRotator(-20.0f, rotDir.Yaw + 180.0f, rotDir.Roll);
 	Arrow->SetRelativeRotation(TotRot);
 
+}
+
+void APlayerCar::RepeatingFunction()
+{
+	Seconds += 1;
+
+	if (Seconds >= 60)
+	{
+		Minutes += 1;
+		Seconds = 0;
+	}
 }
 
 void APlayerCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

@@ -35,7 +35,14 @@ protected:
 
 	void RotateArrow();
 
+	void RepeatingFunction();
+
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	int Seconds;
+	int Minutes;
+
+	struct FTimerHandle MemberTimerHandle;
 
 public:
 	
@@ -52,5 +59,6 @@ public:
 	void DropOffPassenger();
 
 	bool HasPassenger;
+	int NumPassengers;
 
 };
