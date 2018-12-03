@@ -13,8 +13,32 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LEARNINGTODRIVE_PlayerCar_generated_h
 
-#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS
-#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS \
+	virtual void Win_Implementation(); \
+ \
+	DECLARE_FUNCTION(execWin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Win_Implementation(); \
+		P_NATIVE_END; \
+	}
+
+
+#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void Win_Implementation(); \
+ \
+	DECLARE_FUNCTION(execWin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Win_Implementation(); \
+		P_NATIVE_END; \
+	}
+
+
+#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_EVENT_PARMS
+#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_CALLBACK_WRAPPERS
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCar(); \
@@ -69,12 +93,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCar); \
 	FORCEINLINE static uint32 __PPO__Minutes() { return STRUCT_OFFSET(APlayerCar, Minutes); }
 
 
-#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_9_PROLOG
+#define LearningToDrive_Source_LearningToDrive_PlayerCar_h_9_PROLOG \
+	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_EVENT_PARMS
+
+
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_PRIVATE_PROPERTY_OFFSET \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS \
+	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_CALLBACK_WRAPPERS \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_INCLASS \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -86,6 +114,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_PRIVATE_PROPERTY_OFFSET \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_CALLBACK_WRAPPERS \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_INCLASS_NO_PURE_DECLS \
 	LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_ENHANCED_CONSTRUCTORS \
 private: \

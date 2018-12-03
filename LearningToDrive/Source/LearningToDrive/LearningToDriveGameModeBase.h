@@ -15,7 +15,7 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Totems, Meta = (BlueprintProtected = "true"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = HUD, Meta = (BlueprintProtected = "true"))
 	TSubclassOf<class UUserWidget> PlayerHUDClass;
 
 	UPROPERTY()

@@ -17,13 +17,47 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	LEARNINGTODRIVE_API UClass* Z_Construct_UClass_APlayerCar();
 	PHYSXVEHICLES_API UClass* Z_Construct_UClass_AWheeledVehicle();
 	UPackage* Z_Construct_UPackage__Script_LearningToDrive();
+	LEARNINGTODRIVE_API UFunction* Z_Construct_UFunction_APlayerCar_Win();
 	LEARNINGTODRIVE_API UClass* Z_Construct_UClass_ABuildingManager_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_APlayerCar_Win = FName(TEXT("Win"));
+	void APlayerCar::Win()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APlayerCar_Win),NULL);
+	}
 	void APlayerCar::StaticRegisterNativesAPlayerCar()
 	{
+		UClass* Class = APlayerCar::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Win", &APlayerCar::execWin },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlayerCar_Win_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCar_Win_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Win" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCar_Win_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCar, "Win", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020C00, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCar_Win_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayerCar_Win_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCar_Win()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCar_Win_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_APlayerCar_NoRegister()
 	{
@@ -32,6 +66,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	struct Z_Construct_UClass_APlayerCar_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -82,6 +117,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	UObject* (*const Z_Construct_UClass_APlayerCar_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AWheeledVehicle,
 		(UObject* (*)())Z_Construct_UPackage__Script_LearningToDrive,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerCar_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayerCar_Win, "Win" }, // 1227531478
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::Class_MetaDataParams[] = {
@@ -186,7 +224,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		&APlayerCar::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_APlayerCar_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -202,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCar, 1133856185);
+	IMPLEMENT_CLASS(APlayerCar, 1057228765);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerCar(Z_Construct_UClass_APlayerCar, &APlayerCar::StaticClass, TEXT("/Script/LearningToDrive"), TEXT("APlayerCar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerCar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

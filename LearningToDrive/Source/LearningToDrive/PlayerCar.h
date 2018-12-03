@@ -48,6 +48,9 @@ protected:
 	UPROPERTY(BlueprintReadWrite)
 	int Minutes;
 
+	FVector RespawnLoc;
+	FRotator RespawnRot;
+
 	struct FTimerHandle MemberTimerHandle;
 
 public:
@@ -61,10 +64,16 @@ public:
 	void OnHandbrakePressed();
 	void OnHandbrakeReleased();
 
+	void Respawn();
+
 	void PickupPassenger();
 	void DropOffPassenger();
 
+	UFUNCTION(BlueprintNativeEvent, Category = Win)
+	void Win();
+
 	bool HasPassenger;
+	bool GameOver;
 
 	UPROPERTY(BlueprintReadWrite)
 	int NumPassengers;

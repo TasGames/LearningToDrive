@@ -62,6 +62,7 @@ APlayerCar::APlayerCar()
 	Vehicle4W->WheelSetups[3].AdditionalOffset = FVector(0.f, 12.f, 0.f);
 
 	HasPassenger = false;
+	GameOver = false;
 	Seconds = 0;
 }
 
@@ -78,6 +79,9 @@ void APlayerCar::BeginPlay()
 		if (BM != NULL)
 			B = BM;
 	}
+
+	RespawnLoc = GetActorLocation();
+	RespawnRot = GetActorRotation();
 
 	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &APlayerCar::RepeatingFunction, 0.01f, true);
 }
@@ -107,6 +111,12 @@ void APlayerCar::OnHandbrakePressed()
 void APlayerCar::OnHandbrakeReleased()
 {
 	GetVehicleMovementComponent()->SetHandbrakeInput(false);
+}
+
+void APlayerCar::Respawn()
+{
+	SetActorLocation(RespawnLoc, false, 0, ETeleportType::TeleportPhysics);
+	SetActorRelativeRotation(RespawnRot, false, 0, ETeleportType::TeleportPhysics);
 }
 
 void APlayerCar::PickupPassenger()
@@ -143,19 +153,27 @@ void APlayerCar::RotateArrow()
 
 void APlayerCar::RepeatingFunction()
 {
-	Micro += 1;
-
-	if (Micro >= 100)
+	if (GameOver == false)
 	{
-		Seconds += 1;
-		Micro = 0;
-	}
+		Micro += 1;
 
-	if (Seconds >= 60)
-	{
-		Minutes += 1;
-		Seconds = 0;
+		if (Micro >= 100)
+		{
+			Seconds += 1;
+			Micro = 0;
+		}
+
+		if (Seconds >= 60)
+		{
+			Minutes += 1;
+			Seconds = 0;
+		}
 	}
+}
+
+void APlayerCar::Win_Implementation()
+{
+
 }
 
 void APlayerCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -168,4 +186,5 @@ void APlayerCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAction("Handbrake", IE_Pressed, this, &APlayerCar::OnHandbrakePressed);
 	PlayerInputComponent->BindAction("Handbrake", IE_Released, this, &APlayerCar::OnHandbrakeReleased);
 
+	PlayerInputComponent->BindAction("Respawn", IE_Pressed, this, &APlayerCar::Respawn);
 }

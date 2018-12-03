@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeLearningToDriveGameModeBase() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALearningToDriveGameModeBase_Statics::NewProp_PlayerHUDClass_MetaData[] = {
 		{ "BlueprintProtected", "true" },
-		{ "Category", "Totems" },
+		{ "Category", "HUD" },
 		{ "ModuleRelativePath", "LearningToDriveGameModeBase.h" },
 	};
 #endif
@@ -99,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeLearningToDriveGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALearningToDriveGameModeBase, 4022347440);
+	IMPLEMENT_CLASS(ALearningToDriveGameModeBase, 660169512);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALearningToDriveGameModeBase(Z_Construct_UClass_ALearningToDriveGameModeBase, &ALearningToDriveGameModeBase::StaticClass, TEXT("/Script/LearningToDrive"), TEXT("ALearningToDriveGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALearningToDriveGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
