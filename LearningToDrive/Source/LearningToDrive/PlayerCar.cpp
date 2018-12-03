@@ -63,6 +63,7 @@ APlayerCar::APlayerCar()
 
 	HasPassenger = false;
 	GameOver = false;
+	IsPaused = false;
 	Seconds = 0;
 }
 
@@ -137,6 +138,11 @@ void APlayerCar::DropOffPassenger()
 	Arrow->SetVisibility(false);
 }
 
+void APlayerCar::PauseIt()
+{
+
+}
+
 void APlayerCar::RotateArrow()
 {
 	FVector BuildingLoc = B->GetTargetPosition();
@@ -185,6 +191,8 @@ void APlayerCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 	PlayerInputComponent->BindAction("Handbrake", IE_Pressed, this, &APlayerCar::OnHandbrakePressed);
 	PlayerInputComponent->BindAction("Handbrake", IE_Released, this, &APlayerCar::OnHandbrakeReleased);
+
+	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &APlayerCar::PauseIt);
 
 	PlayerInputComponent->BindAction("Respawn", IE_Pressed, this, &APlayerCar::Respawn);
 }

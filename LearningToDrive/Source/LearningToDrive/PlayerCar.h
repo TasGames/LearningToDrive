@@ -72,8 +72,14 @@ public:
 	UFUNCTION(BlueprintNativeEvent, Category = Win)
 	void Win();
 
+	UFUNCTION(BlueprintCallable)
+	void PauseIt();
+
 	bool HasPassenger;
 	bool GameOver;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool IsPaused;
 
 	UPROPERTY(BlueprintReadWrite)
 	int NumPassengers;

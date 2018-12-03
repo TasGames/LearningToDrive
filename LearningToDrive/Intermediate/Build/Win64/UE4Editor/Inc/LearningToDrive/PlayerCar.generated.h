@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS \
 	virtual void Win_Implementation(); \
  \
+	DECLARE_FUNCTION(execPauseIt) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PauseIt(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execWin) \
 	{ \
 		P_FINISH; \
@@ -27,6 +35,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void Win_Implementation(); \
+ \
+	DECLARE_FUNCTION(execPauseIt) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PauseIt(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execWin) \
 	{ \

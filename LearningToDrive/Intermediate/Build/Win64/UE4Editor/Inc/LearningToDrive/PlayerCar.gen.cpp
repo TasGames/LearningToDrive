@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	LEARNINGTODRIVE_API UClass* Z_Construct_UClass_APlayerCar();
 	PHYSXVEHICLES_API UClass* Z_Construct_UClass_AWheeledVehicle();
 	UPackage* Z_Construct_UPackage__Script_LearningToDrive();
+	LEARNINGTODRIVE_API UFunction* Z_Construct_UFunction_APlayerCar_PauseIt();
 	LEARNINGTODRIVE_API UFunction* Z_Construct_UFunction_APlayerCar_Win();
 	LEARNINGTODRIVE_API UClass* Z_Construct_UClass_ABuildingManager_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -32,9 +33,32 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	{
 		UClass* Class = APlayerCar::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "PauseIt", &APlayerCar::execPauseIt },
 			{ "Win", &APlayerCar::execWin },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlayerCar_PauseIt_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCar_PauseIt_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCar_PauseIt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCar, "PauseIt", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCar_PauseIt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayerCar_PauseIt_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCar_PauseIt()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCar_PauseIt_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_APlayerCar_Win_Statics
 	{
@@ -74,6 +98,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NumPassengers_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_NumPassengers;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsPaused_MetaData[];
+#endif
+		static void NewProp_IsPaused_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsPaused;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Minutes_MetaData[];
 #endif
@@ -119,6 +148,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_LearningToDrive,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerCar_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayerCar_PauseIt, "PauseIt" }, // 1908615475
 		{ &Z_Construct_UFunction_APlayerCar_Win, "Win" }, // 1227531478
 	};
 #if WITH_METADATA
@@ -135,6 +165,17 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers = { UE4CodeGen_Private::EPropertyClass::Int, "NumPassengers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, STRUCT_OFFSET(APlayerCar, NumPassengers), METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_IsPaused_MetaData[] = {
+		{ "Category", "PlayerCar" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	void Z_Construct_UClass_APlayerCar_Statics::NewProp_IsPaused_SetBit(void* Obj)
+	{
+		((APlayerCar*)Obj)->IsPaused = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_IsPaused = { UE4CodeGen_Private::EPropertyClass::Bool, "IsPaused", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(APlayerCar), &Z_Construct_UClass_APlayerCar_Statics::NewProp_IsPaused_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_IsPaused_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_IsPaused_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_Minutes_MetaData[] = {
 		{ "Category", "PlayerCar" },
@@ -207,6 +248,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera = { UE4CodeGen_Private::EPropertyClass::Object, "Camera", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(APlayerCar, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCar_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_IsPaused,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_Minutes,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_Seconds,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_Micro,
@@ -240,7 +282,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCar, 1057228765);
+	IMPLEMENT_CLASS(APlayerCar, 4247507676);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerCar(Z_Construct_UClass_APlayerCar, &APlayerCar::StaticClass, TEXT("/Script/LearningToDrive"), TEXT("APlayerCar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerCar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
