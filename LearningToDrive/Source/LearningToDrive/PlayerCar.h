@@ -68,6 +68,7 @@ public:
 
 	void PickupPassenger();
 	void DropOffPassenger();
+	void SaveGame();
 
 	UFUNCTION(BlueprintNativeEvent, Category = Win)
 	void Win();

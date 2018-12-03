@@ -79,9 +79,15 @@
     <ClInclude Include="..\..\Source\LearningToDrive\SpawnPassengers.h">
       <Filter>Source\LearningToDrive</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LearningToDrive\MySaveGame.h">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\LearningToDrive\SpawnPassengers.cpp">
+      <Filter>Source\LearningToDrive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LearningToDrive\MySaveGame.cpp">
       <Filter>Source\LearningToDrive</Filter>
     </ClCompile>
   </ItemGroup>

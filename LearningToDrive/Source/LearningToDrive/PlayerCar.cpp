@@ -6,6 +6,8 @@
 #include "Components/InputComponent.h"
 #include "EngineUtils.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "MySaveGame.h"
 #include "WheeledVehicleMovementComponent4W.h"
 #include "VehicleWheel.h"
 
@@ -136,6 +138,15 @@ void APlayerCar::DropOffPassenger()
 	HasPassenger = false;
 	SM_Passenger->SetVisibility(false);
 	Arrow->SetVisibility(false);
+}
+
+void APlayerCar::SaveGame()
+{
+	UMySaveGame* SaveGameInstance = Cast<UMySaveGame>(UGameplayStatics::CreateSaveGameObject(UMySaveGame::StaticClass()));
+	SaveGameInstance->HMicro = Micro;
+	SaveGameInstance->HSeconds = Seconds;
+	SaveGameInstance->HMinutes = Minutes;
+	UGameplayStatics::SaveGameToSlot(SaveGameInstance, TEXT("MySlot"), 0);
 }
 
 void APlayerCar::PauseIt()
