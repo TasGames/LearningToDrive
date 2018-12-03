@@ -1,0 +1,1331 @@
+﻿Log file open, 12/01/18 21:21:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LearningToDrive
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.182157
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.115s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.01-21.21.20:933][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-21.21.20:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.01-21.21.20:942][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.01-21.21.20:942][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.01-21.21.20:942][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.01-21.21.20:942][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2018.12.01-21.21.20:942][  0]LogInit: User: ThomasSimon
+[2018.12.01-21.21.20:942][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.01-21.21.20:942][  0]LogInit: High frequency timer resolution =3.234375 MHz
+[2018.12.01-21.21.20:942][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.01-21.21.20:942][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.01-21.21.20:942][  0]LogMemory: Process Physical Memory: 100.70 MB used, 100.70 MB peak
+[2018.12.01-21.21.20:942][  0]LogMemory: Process Virtual Memory: 84.37 MB used, 84.37 MB peak
+[2018.12.01-21.21.20:942][  0]LogMemory: Physical Memory: 5164.03 MB used,  11159.70 MB free, 16323.73 MB total
+[2018.12.01-21.21.20:942][  0]LogMemory: Virtual Memory: 4625.40 MB used,  11159.70 MB free, 134217728.00 MB total
+[2018.12.01-21.21.20:966][  0]LogInit: Using OS detected language (en-GB).
+[2018.12.01-21.21.20:966][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.01-21.21.20:967][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.12.01-21.21.21:299][  0]LogStreaming: Display: Took  0.333s to InitEngineTextLocalization.
+[2018.12.01-21.21.21:299][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.01-21.21.21:338][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.01-21.21.21:338][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.01-21.21.21:504][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-21.21.21:504][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.01-21.21.21:570][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.12.01-21.21.21:570][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.12.01-21.21.21:572][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.01-21.21.21:572][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.01-21.21.21:572][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.01-21.21.21:578][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.01-21.21.21:578][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.01-21.21.21:578][  0]LogWindows: EnumDisplayDevices:
+[2018.12.01-21.21.21:578][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.12.01-21.21.21:578][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.12.01-21.21.21:579][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.12.01-21.21.21:579][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.12.01-21.21.21:579][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.01-21.21.21:579][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.12.01-21.21.21:579][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.12.01-21.21.21:579][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.12.01-21.21.21:579][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.12.01-21.21.21:608][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.01-21.21.21:624][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.01-21.21.21:675][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Intermediate/Shaders/WorkingDirectory/18540/).
+[2018.12.01-21.21.21:675][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/5EFC3BAB4428DC88FA4866A54C4F31DF/'.
+[2018.12.01-21.21.21:920][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.01-21.21.21:932][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.01-21.21.21:944][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.01-21.21.21:957][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.01-21.21.21:969][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.01-21.21.21:981][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.01-21.21.21:994][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.01-21.21.22:006][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.01-21.21.22:012][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.01-21.21.22:085][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:085][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:086][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-21.21.22:087][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.01-21.21.22:144][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-21.21.22:144][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-21.21.22:165][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-21.21.22:165][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-21.21.22:177][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.01-21.21.22:188][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.01-21.21.22:199][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.01-21.21.22:211][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.01-21.21.22:219][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.01-21.21.22:219][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.01-21.21.22:274][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.01-21.21.22:274][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.01-21.21.22:274][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.01-21.21.22:274][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.01-21.21.22:928][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.01-21.21.22:979][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.01-21.21.22:979][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.01-21.21.22:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.01-21.21.22:979][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.01-21.21.22:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.01-21.21.22:979][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.01-21.21.22:991][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.01-21.21.23:004][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.01-21.21.23:004][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.01-21.21.23:004][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.01-21.21.23:020][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.01-21.21.23:021][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.01-21.21.23:021][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.01-21.21.23:092][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2018.12.01-21.21.23:364][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-21.21.23:482][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.01-21.21.23:485][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.01-21.21.23:485][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.01-21.21.23:485][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.01-21.21.23:485][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.01-21.21.23:507][  0]LogNetVersion: LearningToDrive 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1667456807)
+[2018.12.01-21.21.23:996][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.137951 seconds
+[2018.12.01-21.21.24:003][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.01-21.21.24:003][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.01-21.21.24:003][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.01-21.21.24:777][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.01-21.21.24:789][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.01-21.21.24:931][  0]SourceControl: Source control is disabled
+[2018.12.01-21.21.24:931][  0]SourceControl: Source control is disabled
+[2018.12.01-21.21.24:932][  0]SourceControl: Source control is disabled
+[2018.12.01-21.21.24:935][  0]SourceControl: Source control is disabled
+[2018.12.01-21.21.25:096][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.01-21.21.25:137][  0]LogOcInput: OculusInput pre-init called
+[2018.12.01-21.21.25:187][  0]LogEngine: Initializing Engine...
+[2018.12.01-21.21.25:188][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-21.21.25:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-21.21.25:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-21.21.25:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-21.21.25:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-21.21.25:367][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.01-21.21.25:379][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.01-21.21.25:395][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.21.25:410][  0]LogInit: FAudioDevice initialized.
+[2018.12.01-21.21.25:410][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.01-21.21.25:477][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.01-21.21.25:492][  0]LogInit: Texture streaming: Enabled
+[2018.12.01-21.21.25:510][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.01-21.21.25:522][  0]LogInit: Transaction tracking system initialized
+[2018.12.01-21.21.25:543][  0]BlueprintLog: New page: Editor Load
+[2018.12.01-21.21.25:615][  0]LocalizationService: Localization service is disabled
+[2018.12.01-21.21.25:841][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.01-21.21.25:841][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.01-21.21.25:841][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.01-21.21.25:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-21.21.25:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-21.21.25:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-21.21.25:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-21.21.25:939][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/' took 0.01s
+[2018.12.01-21.21.25:939][  0]SourceControl: Source control is disabled
+[2018.12.01-21.21.25:939][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.01-21.21.25:939][  0]LightingResults: New page: Lighting Build
+[2018.12.01-21.21.25:941][  0]MapCheck: New page: Map Check
+[2018.12.01-21.21.25:941][  0]LightingResults: New page: Lighting Build
+[2018.12.01-21.21.26:139][  0]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.21.26:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.01-21.21.26:167][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.01-21.21.26:223][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.159ms to complete.
+[2018.12.01-21.21.26:223][  0]LogFileHelpers: Loading map 'Main' took 0.284
+[2018.12.01-21.21.26:367][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.21.26:373][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.21.26:380][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.21.26:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.21.26:393][  0]LogCollectionManager: Loaded 0 collections in 0.001492 seconds
+[2018.12.01-21.21.26:442][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Collections/' took 0.01s
+[2018.12.01-21.21.26:442][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2018.12.01-21.21.26:442][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Collections/' took 0.01s
+[2018.12.01-21.21.26:442][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.01-21.21.26:451][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2579 classes and 607 folders.
+[2018.12.01-21.21.26:456][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.01-21.21.26:490][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.01-21.21.27:413][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.12.01-21.21.27:446][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.01-21.21.27:449][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.01-21.21.27:452][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.01-21.21.27:533][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LearningToDrive
+[2018.12.01-21.21.27:533][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.01-21.21.27:533][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.12.01-21.21.27:533][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.01-21.21.27:533][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.12.01-21.21.27:533][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.12.01-21.21.27:533][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
+[2018.12.01-21.21.27:635][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.01-21.21.27:635][  0]LogLoad: (Engine Initialization) Total time: 7.97 seconds
+[2018.12.01-21.21.27:635][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.01-21.21.27:645][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.01-21.21.27:669][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.01-21.21.27:688][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-21.21.27:707][  1]LogAssetRegistry: Asset discovery search completed in 4.6376 seconds
+[2018.12.01-21.21.27:710][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.12.01-21.21.27:710][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000105 seconds (updated 0 objects)
+[2018.12.01-21.21.28:668][111]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-21.21.39:381][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.21.41:143][605]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/M_Cream'
+[2018.12.01-21.21.41:143][605]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/M_Cream' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/WallyTotem.uasset.
+[2018.12.01-21.21.41:143][605]LoadErrors: Error: /Game/Other/WallyTotem : Can't find file for asset. /Game/MyContent/Materials/M_Cream
+[2018.12.01-21.21.41:144][605]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/M_Cream'
+[2018.12.01-21.21.41:144][605]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/M_Cream' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/WallyTotem.uasset.
+[2018.12.01-21.21.41:145][605]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/M_Cream'
+[2018.12.01-21.21.41:145][605]LoadErrors: Failed to load /Game/MyContent/Materials/M_Cream.M_Cream Referenced by WallyTotem
+[2018.12.01-21.21.41:145][605]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/M_Cream' while loading NULL.
+[2018.12.01-21.21.41:145][605]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/M_Cream'
+[2018.12.01-21.21.41:145][605]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/M_Cream' while loading NULL.
+[2018.12.01-21.21.41:154][605]LogStaticMesh: Building static mesh WallyTotem...
+[2018.12.01-21.21.41:198][605]LogStaticMesh: Built static mesh [0.04s] /Game/Other/WallyTotem.WallyTotem
+[2018.12.01-21.21.42:472][605]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.01-21.21.51:090][619]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/Wally'
+[2018.12.01-21.21.51:090][619]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/Wally' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Sedan/Wally_Mat.uasset.
+[2018.12.01-21.21.51:091][619]LoadErrors: Error: /Game/Other/Sedan/Wally_Mat : Can't find file for asset. /Game/MyContent/Materials/Wally
+[2018.12.01-21.21.51:091][619]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/Wally'
+[2018.12.01-21.21.51:091][619]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/Wally' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Sedan/Wally_Mat.uasset.
+[2018.12.01-21.21.51:091][619]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/Wally'
+[2018.12.01-21.21.51:091][619]LoadErrors: Failed to load /Game/MyContent/Materials/Wally.Wally Referenced by MaterialExpressionTextureSample_0
+[2018.12.01-21.21.51:091][619]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/Wally' while loading NULL.
+[2018.12.01-21.21.51:093][619]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.21.51:093][619]LogMaterial: Warning: A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Content\Other\Sedan\Wally_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.01-21.21.51:093][619]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.21.54:293][997]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/Wally_Mat'
+[2018.12.01-21.21.54:294][997]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/Wally_Mat' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally.uasset.
+[2018.12.01-21.21.54:294][997]LoadErrors: Error: /Game/Other/Wally : Can't find file for asset. /Game/MyContent/Materials/Wally_Mat
+[2018.12.01-21.21.54:294][997]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/Wally_Mat'
+[2018.12.01-21.21.54:294][997]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/Wally_Mat' while loading A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally.uasset.
+[2018.12.01-21.21.54:294][997]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/Wally_Mat'
+[2018.12.01-21.21.54:294][997]LoadErrors: Failed to load /Game/MyContent/Materials/Wally_Mat.Wally_Mat Referenced by Wally
+[2018.12.01-21.21.54:295][997]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/Wally_Mat' while loading NULL.
+[2018.12.01-21.21.54:295][997]LogLinker: Warning: Can't find file '/Game/MyContent/Materials/Wally_Mat'
+[2018.12.01-21.21.54:295][997]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Materials/Wally_Mat' while loading NULL.
+[2018.12.01-21.21.54:340][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Other/Wally_Mat" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally_Mat.uasset" SILENT=true
+[2018.12.01-21.21.54:354][997]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Wally_Mat606DA01F483578397E27BB8C90C637F6.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally_Mat.uasset'
+[2018.12.01-21.22.00:192][678]LogSlate: Window 'Failed Renames' being destroyed
+[2018.12.01-21.22.19:573][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Other/Wally/Wally" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally/Wally.uasset" SILENT=true
+[2018.12.01-21.22.19:587][739]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/WallyD06D874B4532B4DABAE193BCC8D5A80F.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally/Wally.uasset'
+[2018.12.01-21.22.22:189][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Other/Wally/Wally_Mat" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally/Wally_Mat.uasset" SILENT=true
+[2018.12.01-21.22.22:202][ 24]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Wally_MatD645D81647B8DF4C572239A63A3FCB0B.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally/Wally_Mat.uasset'
+[2018.12.01-21.22.30:254][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Other/Wally" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally.uasset" SILENT=true
+[2018.12.01-21.22.30:260][963]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/WallyD71C084F48E15BF8704FBFA821B17B98.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally.uasset'
+[2018.12.01-21.22.33:543][337]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Other/Wally/Wally.Wally
+[2018.12.01-21.22.34:069][337]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2018.12.01-21.22.34:069][337]LogSlate: Took 0.005297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.01-21.22.36:309][599]LogSlate: Window 'Wally' being destroyed
+[2018.12.01-21.22.36:312][599]LogSlate: Window 'Wally' being destroyed
+[2018.12.01-21.22.37:587][741]LogAssetEditorManager: Opening Asset editor for Material /Game/Other/Wally/Wally_Mat.Wally_Mat
+[2018.12.01-21.22.37:589][741]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.22.37:590][741]LogMaterial: Warning: /Engine/Transient.Wally_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.01-21.22.37:590][741]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.22.37:663][741]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.22.37:663][741]LogMaterial: Warning: /Engine/Transient.Wally_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.01-21.22.37:663][741]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.22.37:666][741]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.22.37:666][741]LogMaterial: Warning: /Engine/Transient.Wally_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.01-21.22.37:666][741]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.22.37:697][741]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.01-21.22.37:716][741]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.22.37:720][741]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.01-21.22.49:398][118]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.22.49:471][119]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.01-21.22.49:472][119]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.01-21.22.49:472][119]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.01-21.22.50:782][272]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.01-21.22.51:782][381]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.01-21.22.52:131][418]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.01-21.22.52:470][457]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.01-21.22.52:583][470]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.01-21.22.52:781][493]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.01-21.22.52:952][512]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.01-21.22.53:217][543]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.01-21.22.53:429][567]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.01-21.22.54:103][643]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.01-21.22.54:173][651]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.01-21.22.54:442][681]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.01-21.22.55:001][744]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.01-21.22.55:001][744]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.01-21.22.55:224][769]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.01-21.22.55:697][823]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.01-21.22.55:902][847]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.01-21.22.56:030][860]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.01-21.22.56:738][941]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.01-21.22.56:738][941]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.01-21.22.56:738][941]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.01-21.22.56:738][941]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.01-21.23.06:022][ 46]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.23.06:034][ 46]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSample_0, compiling. 
+[2018.12.01-21.23.06:066][ 47]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.01-21.23.06:066][ 47]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.01-21.23.06:066][ 47]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.01-21.23.06:471][ 94]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.01-21.23.06:471][ 94]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.01-21.23.06:623][112]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.01-21.23.06:788][131]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.01-21.23.06:857][139]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.01-21.23.06:958][151]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.01-21.23.07:136][172]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.01-21.23.07:238][184]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.01-21.23.07:305][192]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.01-21.23.07:775][246]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.01-21.23.07:859][256]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.01-21.23.08:055][279]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.01-21.23.08:492][330]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.01-21.23.08:707][355]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.01-21.23.08:741][358]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.01-21.23.09:227][415]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.01-21.23.09:292][423]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.01-21.23.09:519][449]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.01-21.23.09:909][493]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.01-21.23.09:910][493]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.01-21.23.09:910][493]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.01-21.23.09:910][493]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.01-21.23.20:230][724]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.12.01-21.23.20:233][724]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.23.20:250][724]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.01-21.23.20:250][724]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.01-21.23.20:250][724]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.01-21.23.20:252][724]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.23.20:531][748]LogEditorTransaction: Undo Material Editor: Delete
+[2018.12.01-21.23.20:534][748]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.23.20:534][748]LogMaterial: Warning: /Engine/Transient.Wally_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.01-21.23.20:534][748]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.23.20:536][748]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.23.20:537][748]LogMaterial: Warning: /Engine/Transient.Wally_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.01-21.23.20:537][748]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.23.20:567][748]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.01-21.23.20:568][748]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.12.01-21.24.00:983][130]LogSlate: Window 'Message' being destroyed
+[2018.12.01-21.24.00:988][130]LogSlate: Window 'Wally_Mat' being destroyed
+[2018.12.01-21.24.00:989][130]LogSlate: Window 'Wally_Mat' being destroyed
+[2018.12.01-21.24.06:945][456]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.01-21.24.14:478][337]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.12.01-21.24.14:498][338]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.01-21.24.14:498][338]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.01-21.24.14:498][338]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.01-21.24.16:005][505]LogAssetEditorManager: Opening Asset editor for Material /Game/Other/Wally_Mat.Wally_Mat
+[2018.12.01-21.24.16:008][505]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.12.01-21.24.16:071][505]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.12.01-21.24.16:086][505]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.12.01-21.24.16:126][505]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.01-21.24.17:156][598]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.01-21.24.18:685][755]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.01-21.24.19:791][878]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.01-21.24.20:722][981]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.01-21.24.21:581][ 75]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.01-21.24.22:357][160]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.01-21.24.22:393][164]LogMaterialEditor: Saving and Compiling material Wally_Mat
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.01-21.24.24:712][164]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.01-21.24.24:730][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Other/Wally_Mat" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally_Mat.uasset" SILENT=true
+[2018.12.01-21.24.24:743][164]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Wally_Mat63EC53324F9FED093CFC668A39B08E68.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally_Mat.uasset'
+[2018.12.01-21.24.26:043][300]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.01-21.24.27:120][415]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.01-21.24.27:706][480]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.01-21.24.28:330][546]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.01-21.24.28:889][608]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.01-21.24.29:195][641]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.12.01-21.24.29:195][641]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.12.01-21.24.29:195][641]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.12.01-21.24.29:195][641]MaterialEditorStats: Texture samplers: 4/16
+[2018.12.01-21.24.29:195][641]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.12.01-21.24.29:195][641]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.12.01-21.24.33:437][138]LogSlate: Window 'Wally_Mat' being destroyed
+[2018.12.01-21.24.33:440][138]LogSlate: Window 'Wally_Mat' being destroyed
+[2018.12.01-21.24.38:485][733]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Other/Wally/Wally.Wally
+[2018.12.01-21.24.50:425][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.24.50:572][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Other/Wally/Wally" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally/Wally.uasset" SILENT=true
+[2018.12.01-21.24.50:590][ 81]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Wally7EB525804328F2BCB0B623947F570654.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/Other/Wally/Wally.uasset'
+[2018.12.01-21.24.57:026][847]LogSlate: Window 'Wally' being destroyed
+[2018.12.01-21.24.57:028][847]LogSlate: Window 'Wally' being destroyed
+[2018.12.01-21.25.02:620][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.25.06:830][  8]Candidate modules for hot reload:
+[2018.12.01-21.25.06:830][  8]  LearningToDrive
+[2018.12.01-21.25.06:830][  8]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LearningToDrive,6192 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" ]
+[2018.12.01-21.25.06:836][  8]Warning: Starting HotReload took  0.0s.
+[2018.12.01-21.25.12:826][720]CompilerResultsLog: New page: Compilation - 1 Dec 2018 21:25:12
+[2018.12.01-21.25.12:827][720]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.01-21.25.12:827][720]CompilerResultsLog: Creating makefile for hot reloading LearningToDriveEditor (ini files are newer than UBTMakefile)
+[2018.12.01-21.25.12:827][720]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.01-21.25.12:827][720]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.01-21.25.12:827][720]CompilerResultsLog: Target is up to date
+[2018.12.01-21.25.12:827][720]CompilerResultsLog: Total build time: 5.70 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.01-21.25.12:827][720]LogMainFrame: MainFrame: Module compiling took 6.009 seconds
+[2018.12.01-21.25.12:858][720]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2579 classes and 607 folders.
+[2018.12.01-21.25.12:859][720]Display: HotReload took  6.1s.
+[2018.12.01-21.25.19:267][487]LogActor: Warning: Building /Engine/Transient.World_6:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.25.35:669][440]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Passenger.Bp_Passenger
+[2018.12.01-21.25.36:086][440]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.12.01-21.25.36:738][440]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.01-21.25.36:744][440]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_7:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.25.41:213][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.25.56:619][766]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_8:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.26.04:010][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.26.11:593][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.26.15:110][908]LogSlate: Window 'Bp_Passenger*' being destroyed
+[2018.12.01-21.26.15:114][908]LogSlate: Window 'Bp_Passenger*' being destroyed
+[2018.12.01-21.26.18:351][140]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.01-21.27.19:616][686]Candidate modules for hot reload:
+[2018.12.01-21.27.19:616][686]  LearningToDrive
+[2018.12.01-21.27.19:617][686]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LearningToDrive,5057 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" ]
+[2018.12.01-21.27.19:623][686]Warning: Starting HotReload took  0.0s.
+[2018.12.01-21.27.24:386][245]CompilerResultsLog: New page: Compilation - 1 Dec 2018 21:27:24
+[2018.12.01-21.27.24:386][245]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.01-21.27.24:386][245]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.01-21.27.24:387][245]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.12.01-21.27.24:387][245]CompilerResultsLog:   [1/3] Passenger.cpp
+[2018.12.01-21.27.24:387][245]CompilerResultsLog:   [2/3] UE4Editor-LearningToDrive-5057.lib
+[2018.12.01-21.27.24:387][245]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-5057.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-5057.exp
+[2018.12.01-21.27.24:387][245]CompilerResultsLog:   [3/3] UE4Editor-LearningToDrive-5057.dll
+[2018.12.01-21.27.24:387][245]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-5057.suppressed.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-5057.suppressed.exp
+[2018.12.01-21.27.24:387][245]CompilerResultsLog: Total build time: 4.44 seconds (Parallel executor: 2.62 seconds)
+[2018.12.01-21.27.24:387][245]LogMainFrame: MainFrame: Module compiling took 4.784 seconds
+[2018.12.01-21.27.24:442][245]LogContentBrowser: Native class hierarchy updated for 'LearningToDrive' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2018.12.01-21.27.24:445][245]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.01-21.27.24:776][245]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2579 classes and 607 folders.
+[2018.12.01-21.27.24:776][245]Display: HotReload took  5.2s.
+[2018.12.01-21.27.52:820][585]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Passenger.Bp_Passenger
+[2018.12.01-21.27.53:147][585]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.01-21.27.53:150][585]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_9:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.28.22:231][  8]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_8:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.28.27:681][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.28.27:739][643]BlueprintLog: New page: Compile Bp_Passenger
+[2018.12.01-21.28.27:753][643]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_9:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.28.27:754][643]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_8:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.28.27:942][643]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_8:PersistentLevel.Bp_Passenger_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.28.28:475][699]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Bp_PassengerD3C0D3A9443C932FEBCE3084C9C6F1FA.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Blueprints/Bp_Passenger.uasset'
+[2018.12.01-21.28.32:454][170]LogActor: Warning: Bp_Passenger_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.28.33:054][241]LogActor: Warning: Bp_Passenger_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Passenger_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.28.39:507][930]LogEditorViewport: Clicking on Actor (LMB): Bp_Passenger_C (Bp_Passenger)
+[2018.12.01-21.28.39:602][939]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (statisMeshComponent)
+[2018.12.01-21.28.42:206][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.28.53:345][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.29.03:385][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.29.08:892][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.29.26:549][145]Cmd: SELECT NONE
+[2018.12.01-21.29.28:394][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.29.28:452][354]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.29.28:469][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.29.28:481][354]PIE: New page: PIE session: Main (1 Dec 2018 21:29:28)
+[2018.12.01-21.29.28:481][354]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.29.28:494][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013392s)
+[2018.12.01-21.29.28:495][354]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.29.28:495][354]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2018.12.01-21.29.28:495][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.014250s)
+[2018.12.01-21.29.28:546][354]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.29.28:556][354]LogInit: FAudioDevice initialized.
+[2018.12.01-21.29.28:653][354]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.29.28:656][354]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.29.28
+[2018.12.01-21.29.28:656][354]LogWorld: Bringing up level for play took: 0.001934
+[2018.12.01-21.29.28:686][354]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.12.01-21.29.28:688][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:688][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:689][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:689][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:689][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:689][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:689][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:689][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:690][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:691][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:691][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:691][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:691][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:691][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:691][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:691][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:692][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:692][354]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.29.28:692][354]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.626
+[2018.12.01-21.29.47:741][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.29.47:774][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.29.47:802][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.29.47:842][633]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.12.01-21.29.50:118][891]LogEditorViewport: Clicking on Actor (LMB): Bp_Passenger_C (Bp_Passenger)
+[2018.12.01-21.29.53:413][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.30.06:832][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.30.06:907][824]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.30.06:921][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.30.06:921][824]PIE: New page: PIE session: Main (1 Dec 2018 21:30:06)
+[2018.12.01-21.30.06:921][824]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.30.06:934][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012713s)
+[2018.12.01-21.30.06:934][824]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.30.06:934][824]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2018.12.01-21.30.06:935][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013461s)
+[2018.12.01-21.30.06:973][824]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.30.06:985][824]LogInit: FAudioDevice initialized.
+[2018.12.01-21.30.07:017][824]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.30.07:020][824]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.30.07
+[2018.12.01-21.30.07:020][824]LogWorld: Bringing up level for play took: 0.001986
+[2018.12.01-21.30.07:033][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:033][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:034][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:034][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:034][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:034][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:034][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:034][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:034][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:035][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:035][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:035][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:035][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:035][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:035][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:036][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:036][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:036][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:036][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:036][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:036][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:036][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:037][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:037][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:037][824]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.30.07:037][824]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.281
+[2018.12.01-21.31.04:840][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.31.04:874][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.31.04:903][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.31.04:945][751]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.01-21.31.11:657][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.31.35:252][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.31.35:354][249]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.31.35:367][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.31.35:367][249]PIE: New page: PIE session: Main (1 Dec 2018 21:31:35)
+[2018.12.01-21.31.35:367][249]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.31.35:380][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012494s)
+[2018.12.01-21.31.35:380][249]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.31.35:380][249]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2018.12.01-21.31.35:380][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013249s)
+[2018.12.01-21.31.35:419][249]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.31.35:434][249]LogInit: FAudioDevice initialized.
+[2018.12.01-21.31.35:464][249]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.31.35:466][249]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.31.35
+[2018.12.01-21.31.35:466][249]LogWorld: Bringing up level for play took: 0.001820
+[2018.12.01-21.31.35:479][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:479][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:480][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:480][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:480][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:480][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:480][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:480][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:480][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:481][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:481][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:481][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:481][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:481][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:481][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:481][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:482][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:482][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:482][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:482][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:482][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:482][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:482][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:483][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:483][249]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.31.35:483][249]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.165
+[2018.12.01-21.32.04:542][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.32.04:578][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.32.04:606][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.32.04:641][729]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.12.01-21.32.05:856][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.32.06:068][871]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCar.Bp_PlayerCar
+[2018.12.01-21.32.08:182][ 66]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCar.Bp_PlayerCar
+[2018.12.01-21.33.15:286][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.33.15:303][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.33.15:303][ 42]PIE: New page: PIE session: Main (1 Dec 2018 21:33:15)
+[2018.12.01-21.33.15:303][ 42]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.33.15:316][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013020s)
+[2018.12.01-21.33.15:317][ 42]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.33.15:317][ 42]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2018.12.01-21.33.15:317][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.014014s)
+[2018.12.01-21.33.15:348][ 42]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.33.15:357][ 42]LogInit: FAudioDevice initialized.
+[2018.12.01-21.33.15:391][ 42]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.33.15:393][ 42]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.33.15
+[2018.12.01-21.33.15:393][ 42]LogWorld: Bringing up level for play took: 0.001961
+[2018.12.01-21.33.15:406][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:406][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:407][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:407][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:407][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:407][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:407][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:407][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:407][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:408][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:408][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:408][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:408][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:408][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:408][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:408][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:409][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:409][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:409][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:409][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:409][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:409][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:409][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:410][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:410][ 42]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.15:410][ 42]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.092
+[2018.12.01-21.33.37:092][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.33.37:130][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.33.37:160][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.33.37:196][632]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.12.01-21.33.37:613][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.33.44:099][452]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.33.44:115][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.33.44:115][452]PIE: New page: PIE session: Main (1 Dec 2018 21:33:44)
+[2018.12.01-21.33.44:115][452]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.33.44:128][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012779s)
+[2018.12.01-21.33.44:128][452]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.33.44:128][452]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2018.12.01-21.33.44:128][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013526s)
+[2018.12.01-21.33.44:158][452]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.33.44:167][452]LogInit: FAudioDevice initialized.
+[2018.12.01-21.33.44:199][452]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.33.44:202][452]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.33.44
+[2018.12.01-21.33.44:202][452]LogWorld: Bringing up level for play took: 0.002086
+[2018.12.01-21.33.44:215][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:215][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:215][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:216][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:216][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:216][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:216][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:216][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:216][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:216][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:217][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:218][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:218][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:218][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:218][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:218][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:218][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:219][452]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.44:219][452]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.901
+[2018.12.01-21.33.50:429][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.33.50:463][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.33.50:491][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.33.50:550][193]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.12.01-21.33.51:205][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.33.59:882][308]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.33.59:898][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.33.59:898][308]PIE: New page: PIE session: Main (1 Dec 2018 21:33:59)
+[2018.12.01-21.33.59:898][308]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.33.59:911][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012626s)
+[2018.12.01-21.33.59:912][308]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.33.59:912][308]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2018.12.01-21.33.59:912][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013416s)
+[2018.12.01-21.33.59:941][308]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.33.59:951][308]LogInit: FAudioDevice initialized.
+[2018.12.01-21.33.59:980][308]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.33.59:982][308]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.33.59
+[2018.12.01-21.33.59:982][308]LogWorld: Bringing up level for play took: 0.001776
+[2018.12.01-21.33.59:995][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:995][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:996][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:996][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:996][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:996][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:996][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:996][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:996][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:997][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:998][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:998][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:998][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:998][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:998][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:998][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:998][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:999][308]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.33.59:999][308]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.681
+[2018.12.01-21.34.51:300][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.34.51:334][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.34.51:364][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.34.51:408][453]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.12.01-21.34.59:213][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.35.15:081][263]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main9E8C7DB3474531BC55B4A489FF9C4800.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap'
+[2018.12.01-21.35.15:110][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.12.01-21.35.15:223][263]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main_BuiltDataEEABE40A4D9061947ABB83AE06065F56.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.12.01-21.36.02:580][886]BlueprintLog: New page: Compile Bp_PlayerCar
+[2018.12.01-21.36.03:148][928]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Bp_PlayerCar5669EE3B475F6FF1A3631B870CC04968.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2018.12.01-21.36.04:570][ 96]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.36.04:586][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.36.04:586][ 96]PIE: New page: PIE session: Main (1 Dec 2018 21:36:04)
+[2018.12.01-21.36.04:586][ 96]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.36.04:598][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012339s)
+[2018.12.01-21.36.04:599][ 96]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.36.04:599][ 96]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2018.12.01-21.36.04:599][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013065s)
+[2018.12.01-21.36.04:633][ 96]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.36.04:644][ 96]LogInit: FAudioDevice initialized.
+[2018.12.01-21.36.04:675][ 96]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.36.04:678][ 96]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.36.04
+[2018.12.01-21.36.04:678][ 96]LogWorld: Bringing up level for play took: 0.001919
+[2018.12.01-21.36.04:691][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:691][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:692][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:692][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:692][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:692][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:692][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:692][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:692][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:693][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:693][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:693][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:693][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:693][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:693][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:694][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:694][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:694][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:694][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:694][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:694][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:695][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:695][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:695][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:695][ 96]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.36.04:695][ 96]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.623
+[2018.12.01-21.36.21:873][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.36.21:906][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.36.21:937][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.36.21:973][152]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.12.01-21.36.22:741][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.37.46:306][245]BlueprintLog: New page: Compile Bp_PlayerCar
+[2018.12.01-21.37.46:847][283]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Bp_PlayerCar9EA8A7294E2D1D49DE535190EEEA8A4C.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2018.12.01-21.37.48:217][445]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.37.48:233][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.37.48:233][445]PIE: New page: PIE session: Main (1 Dec 2018 21:37:48)
+[2018.12.01-21.37.48:233][445]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.37.48:246][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012794s)
+[2018.12.01-21.37.48:246][445]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.37.48:246][445]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2018.12.01-21.37.48:246][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013586s)
+[2018.12.01-21.37.48:279][445]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.37.48:289][445]LogInit: FAudioDevice initialized.
+[2018.12.01-21.37.48:320][445]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.37.48:323][445]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.37.48
+[2018.12.01-21.37.48:323][445]LogWorld: Bringing up level for play took: 0.001974
+[2018.12.01-21.37.48:336][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:336][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:337][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:337][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:337][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:337][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:337][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:337][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:337][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:338][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:339][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:339][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:339][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:339][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:339][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:339][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:339][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:340][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.37.48:340][445]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 1.022
+[2018.12.01-21.37.55:822][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.37.55:857][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.37.55:882][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.37.55:940][340]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.12.01-21.37.56:521][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.38.06:921][649]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.38.06:938][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.38.06:938][649]PIE: New page: PIE session: Main (1 Dec 2018 21:38:06)
+[2018.12.01-21.38.06:938][649]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.38.06:951][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013248s)
+[2018.12.01-21.38.06:952][649]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.38.06:952][649]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2018.12.01-21.38.06:952][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.014021s)
+[2018.12.01-21.38.06:991][649]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.38.07:004][649]LogInit: FAudioDevice initialized.
+[2018.12.01-21.38.07:034][649]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.38.07:036][649]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.38.07
+[2018.12.01-21.38.07:036][649]LogWorld: Bringing up level for play took: 0.001909
+[2018.12.01-21.38.07:049][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:049][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:050][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:051][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:051][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:051][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:051][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:051][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:051][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:051][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:052][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:052][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:052][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:052][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:052][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:052][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:052][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:053][649]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.07:053][649]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.265
+[2018.12.01-21.38.11:184][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.38.11:223][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.38.11:257][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.38.11:289][142]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.12.01-21.38.11:599][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.38.12:502][285]BlueprintLog: New page: Compile Bp_PlayerCar
+[2018.12.01-21.38.13:101][331]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Bp_PlayerCar3B4208D5480C0E9AB0B614AEE1608AB6.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2018.12.01-21.38.14:791][531]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.38.14:807][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.38.14:807][531]PIE: New page: PIE session: Main (1 Dec 2018 21:38:14)
+[2018.12.01-21.38.14:807][531]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.38.14:820][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012643s)
+[2018.12.01-21.38.14:821][531]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.38.14:821][531]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2018.12.01-21.38.14:821][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013384s)
+[2018.12.01-21.38.14:856][531]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.38.14:865][531]LogInit: FAudioDevice initialized.
+[2018.12.01-21.38.14:894][531]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.38.14:896][531]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.38.14
+[2018.12.01-21.38.14:896][531]LogWorld: Bringing up level for play took: 0.001922
+[2018.12.01-21.38.14:909][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:909][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:910][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:910][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:910][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:910][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:910][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:910][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:910][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:911][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:911][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:911][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:911][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:911][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:911][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:911][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:912][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:912][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:912][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:912][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:912][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:912][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:912][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:913][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:913][531]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.38.14:913][531]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.405
+[2018.12.01-21.38.35:761][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.38.35:796][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.38.35:826][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.38.35:867][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.12.01-21.38.36:436][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.38.52:774][ 38]LogEditorTransaction: Undo Reset to Default
+[2018.12.01-21.38.53:184][ 79]LogEditorTransaction: Undo Reset to Default
+[2018.12.01-21.38.53:190][ 79]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_10:PersistentLevel.Bp_PlayerCar_C_3.StaticMeshComponent_0) Component already registered.
+[2018.12.01-21.38.53:780][146]Cmd: TRANSACTION UNDO
+[2018.12.01-21.38.53:780][146]LogEditorTransaction: Undo Mouse Drag
+[2018.12.01-21.38.54:600][243]Cmd: TRANSACTION UNDO
+[2018.12.01-21.38.54:600][243]LogEditorTransaction: Undo Mouse Drag
+[2018.12.01-21.38.54:992][289]Cmd: TRANSACTION UNDO
+[2018.12.01-21.38.54:992][289]LogEditorTransaction: Undo Reset to Default
+[2018.12.01-21.38.55:789][383]Cmd: TRANSACTION UNDO
+[2018.12.01-21.38.55:789][383]LogEditorTransaction: Undo Reset to Default
+[2018.12.01-21.38.56:225][434]Cmd: TRANSACTION UNDO
+[2018.12.01-21.38.56:225][434]LogEditorTransaction: Undo Reset to Default
+[2018.12.01-21.38.56:229][434]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.VehicleMesh) Component already registered.
+[2018.12.01-21.38.56:229][434]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.SpringArm) Component already registered.
+[2018.12.01-21.38.56:229][434]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.Camera) Component already registered.
+[2018.12.01-21.38.56:610][479]Cmd: TRANSACTION UNDO
+[2018.12.01-21.38.56:610][479]LogEditorTransaction: Undo Edit Z
+[2018.12.01-21.38.57:533][588]Cmd: TRANSACTION UNDO
+[2018.12.01-21.38.57:533][588]LogEditorTransaction: Undo Edit Y
+[2018.12.01-21.38.59:289][797]Cmd: TRANSACTION REDO
+[2018.12.01-21.38.59:290][797]LogEditorTransaction: Redo Edit Y
+[2018.12.01-21.38.59:294][797]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.MovementComp) Component already registered.
+[2018.12.01-21.38.59:788][855]Cmd: TRANSACTION REDO
+[2018.12.01-21.38.59:788][855]LogEditorTransaction: Redo Edit Z
+[2018.12.01-21.38.59:792][855]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.MovementComp) Component already registered.
+[2018.12.01-21.39.01:091][ 10]Cmd: TRANSACTION REDO
+[2018.12.01-21.39.01:091][ 10]LogEditorTransaction: Redo Reset to Default
+[2018.12.01-21.39.02:113][131]Cmd: TRANSACTION UNDO
+[2018.12.01-21.39.02:113][131]LogEditorTransaction: Undo Reset to Default
+[2018.12.01-21.39.02:117][131]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.VehicleMesh) Component already registered.
+[2018.12.01-21.39.02:118][131]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.SpringArm) Component already registered.
+[2018.12.01-21.39.02:118][131]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_13:PersistentLevel.Bp_PlayerCar_C_0.Camera) Component already registered.
+[2018.12.01-21.39.02:880][221]Cmd: TRANSACTION UNDO
+[2018.12.01-21.39.02:880][221]LogEditorTransaction: Undo Edit Z
+[2018.12.01-21.39.54:651][412]BlueprintLog: New page: Compile Bp_PlayerCar
+[2018.12.01-21.39.55:269][459]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Bp_PlayerCar9595D99949C4F54F26B8739692EF7EC5.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2018.12.01-21.39.56:814][641]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.39.56:832][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.39.56:832][641]PIE: New page: PIE session: Main (1 Dec 2018 21:39:56)
+[2018.12.01-21.39.56:832][641]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.39.56:845][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012552s)
+[2018.12.01-21.39.56:845][641]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.39.56:846][641]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2018.12.01-21.39.56:846][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013541s)
+[2018.12.01-21.39.56:882][641]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.39.56:892][641]LogInit: FAudioDevice initialized.
+[2018.12.01-21.39.56:922][641]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.39.56:925][641]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.39.56
+[2018.12.01-21.39.56:925][641]LogWorld: Bringing up level for play took: 0.001998
+[2018.12.01-21.39.56:938][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:938][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:939][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:939][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:939][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:939][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:939][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:939][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:939][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:940][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:941][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:941][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:941][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:941][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:941][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:941][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:941][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:942][641]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.39.56:942][641]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.376
+[2018.12.01-21.40.10:261][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.40.10:297][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.40.10:326][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.40.10:365][231]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.12.01-21.40.10:825][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.40.18:331][176]BlueprintLog: New page: Compile Bp_PlayerCar
+[2018.12.01-21.40.18:853][213]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Bp_PlayerCarC42EFD104CEBC7F05F1A6EB8471C3321.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2018.12.01-21.40.20:838][445]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.40.20:855][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.40.20:855][445]PIE: New page: PIE session: Main (1 Dec 2018 21:40:20)
+[2018.12.01-21.40.20:855][445]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.40.20:868][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013013s)
+[2018.12.01-21.40.20:869][445]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.40.20:869][445]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2018.12.01-21.40.20:869][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.013724s)
+[2018.12.01-21.40.20:898][445]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.40.20:907][445]LogInit: FAudioDevice initialized.
+[2018.12.01-21.40.20:941][445]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.40.20:943][445]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.40.20
+[2018.12.01-21.40.20:943][445]LogWorld: Bringing up level for play took: 0.001832
+[2018.12.01-21.40.20:956][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:956][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:956][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:957][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:957][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:957][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:957][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:957][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:957][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:958][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:958][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:958][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:958][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:958][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:958][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:958][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:959][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:959][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:959][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:959][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:959][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:959][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:960][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:960][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:960][445]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.40.20:960][445]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.357
+[2018.12.01-21.40.46:424][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.40.46:458][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.40.46:488][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.40.46:524][495]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.12.01-21.40.47:931][660]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-21.42.29:518][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.42.29:735][795]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-21.42.29:752][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-21.42.29:752][795]PIE: New page: PIE session: Main (1 Dec 2018 21:42:29)
+[2018.12.01-21.42.29:752][795]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.12.01-21.42.29:766][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014000s)
+[2018.12.01-21.42.29:767][795]LogAIModule: Creating AISystem for world Main
+[2018.12.01-21.42.29:767][795]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2018.12.01-21.42.29:767][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.014812s)
+[2018.12.01-21.42.29:804][795]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.01-21.42.29:814][795]LogInit: FAudioDevice initialized.
+[2018.12.01-21.42.29:848][795]LogLoad: Game class is 'Bp_LearningToDriveGameModeBase_C'
+[2018.12.01-21.42.29:850][795]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.12.01-21.42.29
+[2018.12.01-21.42.29:851][795]LogWorld: Bringing up level for play took: 0.001903
+[2018.12.01-21.42.29:863][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:863][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:864][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:864][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:864][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:864][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:864][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:864][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:864][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:865][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:866][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:866][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:866][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:866][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:866][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:866][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:866][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:867][795]LogActor: Warning: Building /Game/MyContent/Maps/UEDPIE_0_Main.Main:PersistentLevel.Building_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.42.29:867][795]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.549
+[2018.12.01-21.42.59:587][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.42.59:619][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-21.42.59:650][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-21.42.59:694][336]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.12.01-21.43.20:694][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-21.44.49:255][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.44.49:469][732]Candidate modules for hot reload:
+[2018.12.01-21.44.49:469][732]  LearningToDrive
+[2018.12.01-21.44.49:469][732]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LearningToDrive,2240 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" ]
+[2018.12.01-21.44.49:475][732]Warning: Starting HotReload took  0.0s.
+[2018.12.01-21.44.54:048][163]LogSlate: Window 'Bp_Passenger' being destroyed
+[2018.12.01-21.44.54:952][255]CompilerResultsLog: New page: Compilation - 1 Dec 2018 21:44:54
+[2018.12.01-21.44.54:952][255]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.01-21.44.54:952][255]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.01-21.44.54:952][255]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.12.01-21.44.54:952][255]CompilerResultsLog:   [1/3] Passenger.cpp
+[2018.12.01-21.44.54:952][255]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Source\LearningToDrive\Passenger.cpp(15) : error C2664: 'void USceneComponent::SetRelativeLocation(FVector,bool,FHitResult *,ETeleportType)': cannot convert argument 1 from 'float' to 'FVector'
+[2018.12.01-21.44.54:952][255]CompilerResultsLog:   A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Source\LearningToDrive\Passenger.cpp(15): note: Constructor for struct 'FVector' is declared 'explicit'
+[2018.12.01-21.44.54:952][255]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Binaries\Win64\UE4Editor-LearningToDrive-2240.dll
+[2018.12.01-21.44.54:952][255]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.12.01-21.44.54:952][255]CompilerResultsLog: Total build time: 4.99 seconds (Parallel executor: 0.00 seconds)
+[2018.12.01-21.44.54:952][255]LogMainFrame: MainFrame: Module compiling took 5.497 seconds
+[2018.12.01-21.44.54:952][255]Warning: HotReload failed, recompile failed
+[2018.12.01-21.45.18:477][351]Candidate modules for hot reload:
+[2018.12.01-21.45.18:477][351]  LearningToDrive
+[2018.12.01-21.45.18:477][351]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LearningToDrive,3214 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" ]
+[2018.12.01-21.45.18:484][351]Warning: Starting HotReload took  0.0s.
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog: New page: Compilation - 1 Dec 2018 21:45:25
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog:   [1/3] Passenger.cpp
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog:   [2/3] UE4Editor-LearningToDrive-3214.lib
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-3214.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-3214.exp
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog:   [3/3] UE4Editor-LearningToDrive-3214.dll
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-3214.suppressed.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-3214.suppressed.exp
+[2018.12.01-21.45.25:300][ 88]CompilerResultsLog: Total build time: 6.48 seconds (Parallel executor: 4.39 seconds)
+[2018.12.01-21.45.25:300][ 88]LogMainFrame: MainFrame: Module compiling took 6.838 seconds
+[2018.12.01-21.45.25:354][ 88]LogHotReload: Re-instancing Building after hot-reload.
+[2018.12.01-21.45.25:354][ 88]LogActor: Warning: Building /Engine/Transient.World_6:PersistentLevel.Building_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.25:446][ 88]LogHotReload: Re-instancing Passenger after hot-reload.
+[2018.12.01-21.45.25:450][ 88]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_8:PersistentLevel.Bp_Passenger_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.25:451][ 88]LogActor: Warning: Bp_Passenger_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Passenger_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.25:635][ 88]LogContentBrowser: Native class hierarchy updated for 'LearningToDrive' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2018.12.01-21.45.25:638][ 88]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.01-21.45.25:935][ 88]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2579 classes and 607 folders.
+[2018.12.01-21.45.25:935][ 88]Display: HotReload took  7.5s.
+[2018.12.01-21.45.30:936][687]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_8:PersistentLevel.Bp_Passenger_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.32:017][812]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Passenger.Bp_Passenger
+[2018.12.01-21.45.32:344][812]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_14:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.34:107][ 14]LogSlate: Window 'Bp_Passenger' being destroyed
+[2018.12.01-21.45.34:181][ 14]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Passenger.Bp_Passenger
+[2018.12.01-21.45.34:449][ 14]LogActor: Warning: Bp_Passenger_C /Engine/Transient.World_15:PersistentLevel.Bp_Passenger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.41:457][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.45.41:593][811]LogActor: Warning: Bp_Passenger_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Passenger_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.42:023][856]LogActor: Warning: Bp_Passenger_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Passenger_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.01-21.45.49:932][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.45.54:707][ 95]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (statisMeshComponent)
+[2018.12.01-21.45.54:794][102]LogEditorViewport: Clicking on Actor (double click): Bp_Passenger_C (Bp_Passenger2)
+[2018.12.01-21.45.58:082][433]LogEditorViewport: Clicking on Actor (LMB): Bp_Passenger_C (Bp_Passenger2)
+[2018.12.01-21.46.00:168][645]Cmd: DELETE
+[2018.12.01-21.46.00:168][645]Cmd: ACTOR DELETE
+[2018.12.01-21.46.00:174][645]LogEditorActor: Deleted Actor: Bp_Passenger_C
+[2018.12.01-21.46.00:227][645]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2018.12.01-21.46.01:100][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-21.46.25:156][264]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main6EB73EB14C9984877E4158B4B1B776D3.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main.umap'
+[2018.12.01-21.46.25:185][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.12.01-21.46.25:299][264]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Saved/Main_BuiltData67B635204B558020C00A29A529D8A388.tmp' to 'A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.12.01-21.46.25:949][331]Candidate modules for hot reload:
+[2018.12.01-21.46.25:949][331]  LearningToDrive
+[2018.12.01-21.46.25:949][331]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LearningToDrive,6627 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/LearningToDrive/LearningToDrive/LearningToDrive.uproject" ]
+[2018.12.01-21.46.25:955][331]Warning: Starting HotReload took  0.0s.
+[2018.12.01-21.46.28:629][606]LogSlate: Window 'Bp_Passenger' being destroyed
+[2018.12.01-21.46.28:632][606]LogSlate: Window 'Bp_Passenger' being destroyed
+[2018.12.01-21.46.31:519][938]CompilerResultsLog: New page: Compilation - 1 Dec 2018 21:46:31
+[2018.12.01-21.46.31:519][938]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.01-21.46.31:519][938]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.01-21.46.31:519][938]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.12.01-21.46.31:519][938]CompilerResultsLog:   [1/3] Passenger.cpp
+[2018.12.01-21.46.31:519][938]CompilerResultsLog:   [2/3] UE4Editor-LearningToDrive-6627.lib
+[2018.12.01-21.46.31:519][938]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-6627.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-6627.exp
+[2018.12.01-21.46.31:519][938]CompilerResultsLog:   [3/3] UE4Editor-LearningToDrive-6627.dll
+[2018.12.01-21.46.31:519][938]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-6627.suppressed.lib and object A:\Projects\Unreal Engine Projects\LearningToDrive\LearningToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearningToDrive\UE4Editor-LearningToDrive-6627.suppressed.exp
+[2018.12.01-21.46.31:519][938]CompilerResultsLog: Total build time: 5.22 seconds (Parallel executor: 2.82 seconds)
+[2018.12.01-21.46.31:519][938]LogMainFrame: MainFrame: Module compiling took 5.584 seconds
+[2018.12.01-21.46.33:131][938]LogWindows: Error: === Critical error: ===
+[2018.12.01-21.46.33:131][938]LogWindows: Error: 
+[2018.12.01-21.46.33:131][938]LogWindows: Error: Fatal error!
+[2018.12.01-21.46.33:131][938]LogWindows: Error: 
+[2018.12.01-21.46.33:131][938]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000000b8
+[2018.12.01-21.46.33:131][938]LogWindows: Error: 
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff58d2076f UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff85124f13 UE4Editor-LearningToDrive-6627.dll!APassenger::APassenger() [a:\projects\unreal engine projects\learningtodrive\learningtodrive\source\learningtodrive\passenger.cpp:15]
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482b7ed9 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482a6510 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482af3ad UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482baad5 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482baf15 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482b2d56 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff7e89c6ba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff7e87daa6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff7e5c0a57 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff6373e08e UE4Editor-Core.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff638f7851 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff638f6b49 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482b0673 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482ae067 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482ae9f7 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff482c2d94 UE4Editor-HotReload.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fff636c47b2 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007ff781c38269 UE4Editor.exe!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007ff781c45b3c UE4Editor.exe!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007ff781c45bba UE4Editor.exe!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007ff781c53dac UE4Editor.exe!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007ff781c55aaa UE4Editor.exe!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fffab5e3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: [Callstack] 0x00007fffacce1471 ntdll.dll!UnknownFunction []
+[2018.12.01-21.46.33:131][938]LogWindows: Error: 
+[2018.12.01-21.46.33:149][938]LogExit: Executing StaticShutdownAfterError
+[2018.12.01-21.46.33:152][938]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.12.01-21.46.33:162][938]Log file closed, 12/01/18 21:46:33

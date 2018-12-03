@@ -28,10 +28,22 @@ APlayerCar::APlayerCar()
 	Camera->bUsePawnControlRotation = false;
 	Camera->FieldOfView = 90.f;
 
-	Arrow = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TorchMesh"));
+	Arrow = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ArrowMesh"));
 	Arrow->SetupAttachment(RootComponent);
 	Arrow->bCastDynamicShadow = false;
 	Arrow->CastShadow = false;
+	Arrow->SetVisibility(false);
+
+	SM_Driver = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DriverMesh"));
+	SM_Driver->SetupAttachment(RootComponent);
+	SM_Driver->bCastDynamicShadow = false;
+	SM_Driver->CastShadow = false;
+
+	SM_Passenger = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PassengerMesh"));
+	SM_Passenger->SetupAttachment(RootComponent);
+	SM_Passenger->bCastDynamicShadow = false;
+	SM_Passenger->CastShadow = false;
+	SM_Passenger->SetVisibility(false);
 
 	UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
 
@@ -49,6 +61,7 @@ APlayerCar::APlayerCar()
 	Vehicle4W->WheelSetups[3].BoneName = FName("Wheel_Rear_Right");
 	Vehicle4W->WheelSetups[3].AdditionalOffset = FVector(0.f, 12.f, 0.f);
 
+	HasPassenger = false;
 }
 
 void APlayerCar::BeginPlay()
@@ -65,8 +78,7 @@ void APlayerCar::BeginPlay()
 			B = BM;
 	}
 
-	B->SetTargetPosition();
-	FVector BuildingLoc = B->GetTargetPosition();
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &APlayerCar::RepeatingFunction, 1.0f);
 }
 
 void APlayerCar::Tick(float DeltaTime)
@@ -96,14 +108,47 @@ void APlayerCar::OnHandbrakeReleased()
 	GetVehicleMovementComponent()->SetHandbrakeInput(false);
 }
 
+void APlayerCar::PickupPassenger()
+{
+	HasPassenger = true;
+	SM_Passenger->SetVisibility(true);
+	Arrow->SetVisibility(true);
+
+	B->SetTargetPosition();
+	FVector BuildingLoc = B->GetTargetPosition();
+
+}
+
+void APlayerCar::DropOffPassenger()
+{
+	HasPassenger = false;
+	SM_Passenger->SetVisibility(false);
+	Arrow->SetVisibility(false);
+}
+
 void APlayerCar::RotateArrow()
 {
 	FVector BuildingLoc = B->GetTargetPosition();
-	//FVector BuildingLoc = FVector(0.0f, 0.0f, 0.0f);
 	FVector CarLoc = GetActorLocation();
 
-	
+	FVector newD = BuildingLoc - GetActorLocation();
+	newD.Z = 0.0f;
+	FRotator rotDir = newD.Rotation() - GetActorForwardVector().Rotation();	//calc diff in reqiddir&curr. dir
+	rotDir.Normalize();	//ensure rotation is a unit vector
+	FRotator TotRot = FRotator(-20.0f, rotDir.Yaw + 180.0f, rotDir.Roll);
+	Arrow->SetRelativeRotation(TotRot);
 
+}
+
+void APlayerCar::RepeatingFunction()
+{
+	Seconds += 1;
+
+	if (Seconds >= 60)
+	{
+		Minutes += 1;
+		Seconds = 0;
+	}
 }
 
 void APlayerCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

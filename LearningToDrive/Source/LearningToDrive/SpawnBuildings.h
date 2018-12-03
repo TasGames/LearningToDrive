@@ -20,8 +20,6 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	//TArray<ABuilding*> ArrayOfBuilding;
-
 	FVector SpawnLoc;
 	FRotator Rot;
 

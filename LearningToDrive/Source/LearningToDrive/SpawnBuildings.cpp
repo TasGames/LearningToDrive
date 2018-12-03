@@ -42,7 +42,6 @@ void ASpawnBuildings::Spawn()
 		{
 			SpawnLoc.X += 1600.0f;
 			ABuilding* Building = GetWorld()->SpawnActor<ABuilding>(ABuilding::StaticClass(), SpawnLoc, Rot, SpawnParams);
-			//ArrayOfBuilding.Add(Building);
 		}
 	}
 }

@@ -45,6 +45,7 @@ void ABuildingManager::SetTargetPosition()
 
 	ABuilding* Building = ArrayOfBuilding[RandNum];
 	BuildingLoc = Building->GetActorLocation();
+	Building->IsActive = true;
 
 }
 

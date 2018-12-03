@@ -20,6 +20,11 @@ class LEARNINGTODRIVE_API APlayerCar : public AWheeledVehicle
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* Arrow;
 
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* SM_Driver;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* SM_Passenger;
 	
 protected:
 
@@ -30,7 +35,14 @@ protected:
 
 	void RotateArrow();
 
+	void RepeatingFunction();
+
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	int Seconds;
+	int Minutes;
+
+	struct FTimerHandle MemberTimerHandle;
 
 public:
 	
@@ -42,5 +54,11 @@ public:
 	void MoveRight(float Val);
 	void OnHandbrakePressed();
 	void OnHandbrakeReleased();
+
+	void PickupPassenger();
+	void DropOffPassenger();
+
+	bool HasPassenger;
+	int NumPassengers;
 
 };

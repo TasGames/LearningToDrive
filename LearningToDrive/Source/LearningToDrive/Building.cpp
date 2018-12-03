@@ -1,7 +1,9 @@
 // Thomas Arthur Simon
 
 #include "Building.h"
+#include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "PlayerCar.h"
 #include "UObject/ConstructorHelpers.h"
 
 // Sets default values
@@ -14,6 +16,14 @@ ABuilding::ABuilding()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> UseMesh(TEXT("StaticMesh'/Game/MyContent/Meshes/SM_Building.SM_Building'"));
 	SMComponent->SetStaticMesh(UseMesh.Object);
 
+	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
+	BoxComponent->SetupAttachment(SMComponent);
+	BoxComponent->InitBoxExtent(FVector(600, 600, 250));
+	BoxComponent->SetCollisionProfileName(TEXT("OverlapAll"));
+	BoxComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	BoxComponent->OnComponentBeginOverlap.AddDynamic(this, &ABuilding::OnBeginOverlap);
+
+	IsActive = false;
 }
 
 // Called when the game starts or when spawned
@@ -47,4 +57,21 @@ void ABuilding::ChangeColour()
 
 	}
 
+}
+
+void ABuilding::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	if (IsActive == true)
+	{
+		if (OtherActor != this)
+		{
+			APlayerCar *P = Cast<APlayerCar>(OtherActor);
+			if (P != NULL)
+			{
+				P->DropOffPassenger();
+				P->NumPassengers += 1;
+				IsActive = false;
+			}
+		}
+	}
 }
