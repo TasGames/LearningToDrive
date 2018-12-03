@@ -36,6 +36,22 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NumPassengers_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_NumPassengers;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Minutes_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Minutes;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Seconds_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Seconds;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Micro_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Micro;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_B_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_B;
@@ -74,6 +90,34 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		{ "ModuleRelativePath", "PlayerCar.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers_MetaData[] = {
+		{ "Category", "PlayerCar" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers = { UE4CodeGen_Private::EPropertyClass::Int, "NumPassengers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, STRUCT_OFFSET(APlayerCar, NumPassengers), METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_Minutes_MetaData[] = {
+		{ "Category", "PlayerCar" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_Minutes = { UE4CodeGen_Private::EPropertyClass::Int, "Minutes", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000004, 1, nullptr, STRUCT_OFFSET(APlayerCar, Minutes), METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_Minutes_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_Minutes_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_Seconds_MetaData[] = {
+		{ "Category", "PlayerCar" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_Seconds = { UE4CodeGen_Private::EPropertyClass::Int, "Seconds", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000004, 1, nullptr, STRUCT_OFFSET(APlayerCar, Seconds), METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_Seconds_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_Seconds_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_Micro_MetaData[] = {
+		{ "Category", "PlayerCar" },
+		{ "ModuleRelativePath", "PlayerCar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_Micro = { UE4CodeGen_Private::EPropertyClass::Int, "Micro", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000004, 1, nullptr, STRUCT_OFFSET(APlayerCar, Micro), METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_Micro_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_Micro_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCar_Statics::NewProp_B_MetaData[] = {
 		{ "Category", "BuildingManager" },
@@ -124,6 +168,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera = { UE4CodeGen_Private::EPropertyClass::Object, "Camera", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(APlayerCar, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCar_Statics::NewProp_Camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCar_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_NumPassengers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_Minutes,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_Seconds,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_Micro,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_B,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_SM_Passenger,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCar_Statics::NewProp_SM_Driver,
@@ -154,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCar, 1889922760);
+	IMPLEMENT_CLASS(APlayerCar, 1133856185);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerCar(Z_Construct_UClass_APlayerCar, &APlayerCar::StaticClass, TEXT("/Script/LearningToDrive"), TEXT("APlayerCar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerCar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -62,6 +62,7 @@ APlayerCar::APlayerCar()
 	Vehicle4W->WheelSetups[3].AdditionalOffset = FVector(0.f, 12.f, 0.f);
 
 	HasPassenger = false;
+	Seconds = 0;
 }
 
 void APlayerCar::BeginPlay()
@@ -78,7 +79,7 @@ void APlayerCar::BeginPlay()
 			B = BM;
 	}
 
-	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &APlayerCar::RepeatingFunction, 1.0f);
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &APlayerCar::RepeatingFunction, 0.01f, true);
 }
 
 void APlayerCar::Tick(float DeltaTime)
@@ -142,7 +143,13 @@ void APlayerCar::RotateArrow()
 
 void APlayerCar::RepeatingFunction()
 {
-	Seconds += 1;
+	Micro += 1;
+
+	if (Micro >= 100)
+	{
+		Seconds += 1;
+		Micro = 0;
+	}
 
 	if (Seconds >= 60)
 	{

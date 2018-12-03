@@ -63,7 +63,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCar); \
 	FORCEINLINE static uint32 __PPO__Arrow() { return STRUCT_OFFSET(APlayerCar, Arrow); } \
 	FORCEINLINE static uint32 __PPO__SM_Driver() { return STRUCT_OFFSET(APlayerCar, SM_Driver); } \
 	FORCEINLINE static uint32 __PPO__SM_Passenger() { return STRUCT_OFFSET(APlayerCar, SM_Passenger); } \
-	FORCEINLINE static uint32 __PPO__B() { return STRUCT_OFFSET(APlayerCar, B); }
+	FORCEINLINE static uint32 __PPO__B() { return STRUCT_OFFSET(APlayerCar, B); } \
+	FORCEINLINE static uint32 __PPO__Micro() { return STRUCT_OFFSET(APlayerCar, Micro); } \
+	FORCEINLINE static uint32 __PPO__Seconds() { return STRUCT_OFFSET(APlayerCar, Seconds); } \
+	FORCEINLINE static uint32 __PPO__Minutes() { return STRUCT_OFFSET(APlayerCar, Minutes); }
 
 
 #define LearningToDrive_Source_LearningToDrive_PlayerCar_h_9_PROLOG

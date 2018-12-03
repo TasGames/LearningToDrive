@@ -39,7 +39,13 @@ protected:
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(BlueprintReadWrite)
+	int Micro;
+
+	UPROPERTY(BlueprintReadWrite)
 	int Seconds;
+
+	UPROPERTY(BlueprintReadWrite)
 	int Minutes;
 
 	struct FTimerHandle MemberTimerHandle;
@@ -59,6 +65,8 @@ public:
 	void DropOffPassenger();
 
 	bool HasPassenger;
+
+	UPROPERTY(BlueprintReadWrite)
 	int NumPassengers;
 
 };
